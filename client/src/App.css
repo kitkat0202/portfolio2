@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Nunito+Sans');
+
+:root {
+    --trans: all 300ms ease-in-out;
+    --tshadow: -2px 2px 5px #1f1f1f91;
+    --titletext: 'Raleway', sans-serif;
+    --paratext: 'Nunito Sans', sans-serif;
+
+    --navColor: #3d4c50c4;
+    --primaryLight: #f7ba7e;
+    --primeTextDark: #3d556b;
+}
+
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--paratext);
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+/* ////////////////////////////////////// */
+/* //////////// Media Queries /////////// */
+/* ////////////////////////////////////// */
+@media (max-width : 992px) {
+	
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+  
+}
+
+@media (max-width: 425px) {
+
+}
