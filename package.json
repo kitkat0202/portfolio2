@@ -13,6 +13,17 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
+  "keywords": [
+    "portfolio",
+    "katherine he",
+    "full-stack",
+    "software developer",
+    "web developer",
+    "web designer",
+    "website",
+    "resume",
+    "heroku app"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kitkat0202/portfolio2.git"
