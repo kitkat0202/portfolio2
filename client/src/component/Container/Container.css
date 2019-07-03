@@ -9,7 +9,6 @@
     .container-right {
         padding: 50px 10px 20px 345px;
     }
-	
 }
 
 @media (max-width: 768px) {
@@ -22,8 +21,4 @@
     .container-right {
         padding: 20px;
     }
-}
-
-@media (max-width: 425px) {
-    
 }

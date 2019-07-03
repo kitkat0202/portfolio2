@@ -16,7 +16,7 @@ export default class Projects extends Component {
     componentDidMount() {
         API
             .getAllProject()
-            .then(res => this.setState({ data: res.data }, () => console.log(this.state.data)))
+            .then(res => this.setState({ data: res.data }))
             .catch(err => console.log(err))
     }
 
@@ -31,7 +31,7 @@ export default class Projects extends Component {
 
         // add info to modal
         const pullInfo = info => {
-            this.setState({ info }, () => console.log(this.state.info))
+            this.setState({ info })
         }
 
         // project cards

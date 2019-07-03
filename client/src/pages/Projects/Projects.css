@@ -16,30 +16,10 @@
 /* ////////////////////////////////////// */
 /* //////////// Media Queries /////////// */
 /* ////////////////////////////////////// */
-@media (max-width : 1024px) {
-	
-}
-
-@media (max-width : 992px) {
-	
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 576px) {
-  
-}
-
 @media (max-width: 425px) {
     .project-bg-img {
         top: 360px;
         right: 0px;
         width: 550px;
     }
-}
-
-@media (max-width: 380px) {
-
 }

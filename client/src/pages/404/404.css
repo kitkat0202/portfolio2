@@ -16,18 +16,10 @@
 /* ////////////////////////////////////// */
 /* //////////// Media Queries /////////// */
 /* ////////////////////////////////////// */
-@media (max-width : 992px) {
-    
-}
-
 @media (max-width: 768px) {
     .div-404 {
         margin: 0px 40px;
     }
-}
-
-@media (max-width: 576px) {
-
 }
 
 @media (max-width: 425px) {

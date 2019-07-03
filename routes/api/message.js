@@ -1,13 +1,13 @@
 const router = require("express").Router()
 const messageController = require("../../controllers/Message")
 
-// Match with "api/model1"
+// Match with "api/message"
 router
     .route("/")
     .get(messageController.findAll)
     .post(messageController.create)
 
-// Match with "api/model1/:id"
+// Match with "api/message/:id"
 router
     .route("/:id")
     .get(messageController.findOne)
