@@ -42,8 +42,8 @@
 .modal-title {
     width: 100%;
     padding: 20px 16px;
-    border: 1px solid var(--primeDark);
-    outline: 1px solid var(--primeDark);
+    border: 1px solid var(--thirdyLight);
+    outline: 1px solid var(--thirdyLight);
     outline-offset: -5px;
     text-align: center;
     letter-spacing: 2px;
@@ -95,8 +95,31 @@
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
     box-shadow: var(--primeDark);
+    outline: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     border-color: var(--primeDark);
+}
+
+
+/* ////////////////////////////////////// */
+/* //////////// Media Queries /////////// */
+/* ////////////////////////////////////// */
+@media (max-width : 992px) {
+	
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    .modal-footer .btn{
+        width: 45%;
+    }
+}
+
+@media (max-width: 425px) {
+
 }

@@ -8,8 +8,8 @@
 }
 
 .corner-box {
-    border-top: 1px solid #ccc;
-    border-left: 1px solid #ccc;
+    border-top: 1px solid var(--thirdyLight);
+    border-left: 1px solid var(--thirdyLight);
     width: 20px;
     height: 20px;
     margin-left: -15px;
@@ -35,7 +35,6 @@ ul.sub-list li {
     bottom: -80px;
     right: -60px;
     width: 550px;
-    transform: scaleX(-1);
     opacity: .45;
     z-index: -1;
 }
@@ -47,8 +46,8 @@ ul.sub-list li {
 }
 
 .open-close-btn {
-    border: 1.5px solid #aaa;
-    color: #aaa;
+    border: 1.5px solid var(--thirdyLight);
+    color: var(--thirdyLight);
     margin: 10px;
     padding: 2px 12px 2px 7px;
     border-radius: 20px;
@@ -58,7 +57,8 @@ ul.sub-list li {
 }
 
 .open-close-btn:hover {
-    background-color: #aaa;
+    background-color: var(--btnhover);
+    border: 1.5px solid var(--btnhover);
     color: #fff;
 
 }
@@ -90,7 +90,7 @@ ul.sub-list li {
 /* //////////////////// */
 .home-sup-section {
     position: relative;
-    border: 1px solid #ffffff00;
+    border: 1px solid #00000000;
     margin: 0 80px 20px 20px;
     padding: 20px;
 }
@@ -100,18 +100,18 @@ ul.sub-list li {
     top: 15px;
     right: 25px;
     font-size: 20px;
-    color: #aaaaaa8e;
+    color: var(--thirdyLight);
     cursor: pointer;
 }
 
 .caret:hover {
-    color: #aaa;
+    color: var(--btnhover);
 }
 
 .home-sub-title {
     font-weight: bolder;
     color: #000;
-    border-bottom: 2px solid #ffffff00;
+    border-bottom: 1px solid #00000000;
     margin: 5px 15px 5px 0px;
     cursor: pointer;
 }
@@ -121,13 +121,13 @@ ul.sub-list li {
 }
 
 .home-sup-section:hover {
-    border: 1px solid #aaa;
-    outline: 1px solid #aaa;
+    border: 1px solid var(--thirdyLight);
+    outline: 1px solid var(--thirdyLight);
     outline-offset: -5px;
 }
 
 .home-sup-section:hover .home-sub-title {
-    border-bottom: 2px solid #aaa;
+    border-bottom: 1px solid var(--thirdyLight);
 }
 
 /* ////////////////////////////////////// */

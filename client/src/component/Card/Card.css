@@ -5,7 +5,7 @@
 .project-card {
     position: relative;
     margin: 10px auto;
-    background: var(--navColor);
+    background: #516166f6;
 }
 
 .project-card::before, .project-card::after {

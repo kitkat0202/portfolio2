@@ -1,12 +1,22 @@
 .container-project {
-    margin: 0 20px;
+    margin: 150px 20px 50px 20px;
+}
+
+.project-bg-img {
+    position: fixed;
+    top: -60px;
+    right: 0px;
+    width: 550px;
+    transform: rotate(8deg);
+    opacity: .45;
+    z-index: -1;
 }
 
 
 /* ////////////////////////////////////// */
 /* //////////// Media Queries /////////// */
 /* ////////////////////////////////////// */
-@media (max-width : 992px) {
+@media (max-width : 1024px) {
 	
 }
 
@@ -23,5 +33,13 @@
 }
 
 @media (max-width: 425px) {
+    .project-bg-img {
+        top: 360px;
+        right: 0px;
+        width: 550px;
+    }
+}
+
+@media (max-width: 380px) {
 
 }

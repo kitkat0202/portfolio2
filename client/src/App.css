@@ -8,9 +8,10 @@
     --box: 1px solid #000;
 
     --navColor: #3d4c50c4;
+    --primeDark: #303435fa;
     --primaryLight: #f7ba7e;
     --secondaryLight:#f1f8ff;
-    --primeDark: #303435fa;
+    --thirdyLight: #b9c4ce;
     --btnhover: #3db8b8;
 }
 
@@ -39,7 +40,7 @@ button:focus {
 }
 
 .contain {
-    max-width: 1240px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -48,6 +49,10 @@ button:focus {
 /* ////////////////////////////////////// */
 /* //////////// Media Queries /////////// */
 /* ////////////////////////////////////// */
+@media (max-width : 1024px) {
+	
+}
+
 @media (max-width : 992px) {
 	
 }
@@ -64,4 +69,8 @@ button:focus {
     .only-large {
         display: none;
     }
+}
+
+@media (max-width: 380px) {
+
 }
