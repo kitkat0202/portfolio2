@@ -1,5 +1,5 @@
 {
-  "name": "boiler_plate",
+  "name": "Katherine_Portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,6 +12,10 @@
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitkat0202/portfolio2.git"
   },
   "author": "Katherine He",
   "license": "ISC",
