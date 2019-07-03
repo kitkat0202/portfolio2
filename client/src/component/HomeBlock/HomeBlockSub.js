@@ -11,7 +11,7 @@ export default class HomeBlockSub extends Component {
         return (
             <Fragment>
                 <div className={openStat ? "bgc-white home-sup-section" : "home-sup-section"}>
-                    { openStat ? <i className="fas fa-caret-down caret" onClick={this.handleStatus}></i> : <i className="fas fa-caret-up caret" onClick={this.handleStatus}></i> }
+                    { openStat ? <i className="fas fa-caret-up caret" onClick={this.handleStatus}></i> : <i className="fas fa-caret-down caret" onClick={this.handleStatus}></i>}
                     <h5 className="home-sub-title" onClick={this.handleStatus}>{title}</h5>
                     <p><span className="bolder">Year: </span>{year}</p>
                     { position === "" ? "" : <p><span className="bolder">Position: </span>{position}</p> }
