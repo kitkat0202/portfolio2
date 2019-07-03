@@ -5,13 +5,13 @@ const projectController = require("../../controllers/Project")
 router
     .route("/")
     .get(projectController.findAll)
-    .post(projectController.create)
+    // .post(projectController.create)
 
 // Match with "api/project/:id"
 router
     .route("/:id")
     .get(projectController.findOne)
-    .post(projectController.update)
-    .delete(projectController.remove)
+    // .post(projectController.update)
+    // .delete(projectController.remove)
 
 module.exports = router;

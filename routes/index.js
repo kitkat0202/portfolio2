@@ -8,12 +8,12 @@ const app = express()
 router.use("/api", apiRouters)
 
 // If no API routes are hit, send the React app
-// router.use(function(req, res) {
-//     res.sendFile(path,join(__dirname, "../client/build/index.html"))
-// })
+router.use(function(req, res) {
+    res.sendFile(path,join(__dirname, "../client/build/index.html"))
+})
 
-app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-});
+// app.get('*', (req, res) => {
+//     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+// });
 
 module.exports = router

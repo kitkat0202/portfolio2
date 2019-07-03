@@ -13,18 +13,18 @@ export default {
     updateMessage: function(id) {
         return axios.post("/api/message/" + id);
     },
-    deleteMessage: function(id) {
-        return axios.delete("/api/message/" + id);
-    },
+    // deleteMessage: function(id) {
+    //     return axios.delete("/api/message/" + id);
+    // },
     getAllProject: function() {
         return axios.get("/api/project");
     },
     // saveProject: function(data) {
     //     return axios.post("/api/project", data);
     // },
-    // getOneProject: function(id) {
-    //     return axios.get("/api/project/" + id);
-    // },
+    getOneProject: function(id) {
+        return axios.get("/api/project/" + id);
+    },
     // updateProject: function(id) {
     //     return axios.post("/api/project/" + id);
     // },
