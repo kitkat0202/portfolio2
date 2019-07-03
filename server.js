@@ -7,7 +7,7 @@ const app = express()
 const PORT = process.env.PORT || 8080
 
 // Define middleware
-app.use(express.urlencoded({ extended: true }));
+// app.use(express.urlencoded({ extended: true }));
 app.use(express.json())
 
 // Serve up static assets
