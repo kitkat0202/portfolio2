@@ -1,11 +1,14 @@
 .container-right {
-    padding: 50px 20px 20px 480px;
+    padding: 50px 20px 20px 370px;
 }
 
 /* ////////////////////////////////////// */
 /* //////////// Media Queries /////////// */
 /* ////////////////////////////////////// */
 @media (max-width : 992px) {
+    .container-right {
+        padding: 50px 10px 20px 345px;
+    }
 	
 }
 
@@ -16,11 +19,11 @@
 }
 
 @media (max-width: 576px) {
-  
-}
-
-@media (max-width: 425px) {
     .container-right {
         padding: 20px;
     }
+}
+
+@media (max-width: 425px) {
+    
 }

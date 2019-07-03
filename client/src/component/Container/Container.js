@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Home from '../../pages/Home'
 import Projects from '../../pages/Projects'
 import Contact from '../../pages/Contact'
+import Error from '../../pages/404'
 import './Container.css';
 
 export default class Container extends Component {
@@ -9,7 +10,7 @@ export default class Container extends Component {
         let { page } = this.props
         return (
             <div className="container-right">
-                {page === "contact" ? <Contact /> : page === "projects" ? <Projects /> : <Home />}
+                {page === "contacts" || page === "contact" ? <Contact /> : page === "projects" || page === "project" ? <Projects /> : page === "home" || page === "/" || page === "" ? <Home /> : <Error />}
             </div>
         );
     }

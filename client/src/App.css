@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap');
 
 :root {
     --trans: all 300ms ease-in-out;
     --tshadow: -2px 2px 5px #1f1f1f91;
-    --titletext: 'Raleway', sans-serif;
-    --paratext: 'Nunito Sans', sans-serif;
+    --titletext: 'Poppins', sans-serif;
+    --paratext: 'Raleway', sans-serif;
+    --box: 1px solid #000;
 
     --navColor: #3d4c50c4;
     --primaryLight: #f7ba7e;
-    --primeTextDark: #3d556b;
+    --secondaryLight:#f1f8ff;
+    --primeDark: #303435fa;
+    --btnhover: #3db8b8;
 }
 
 *, body {
@@ -21,6 +24,26 @@
 .bolder {
     font-weight: bolder;
 }
+
+button:focus {
+    outline: none;
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #3d556b77;
+}
+
+.contain {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
 
 /* ////////////////////////////////////// */
 /* //////////// Media Queries /////////// */
@@ -38,5 +61,7 @@
 }
 
 @media (max-width: 425px) {
-
+    .only-large {
+        display: none;
+    }
 }

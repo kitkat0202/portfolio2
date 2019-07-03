@@ -1,12 +1,16 @@
 import React, { Component, Fragment } from 'react'
-import { Row } from 'react-bootstrap';
+import { Row, ButtonToolbar } from 'react-bootstrap';
 import Card from '../../component/Card'
+import CardModal from '../../component/Card/CardModal'
+import StaticInfo from '../../data.json'
 import API from '../../utils/API'
 import './Projects.css'
 
 export default class Projects extends Component {
     state = {
-        data: []
+        modalShow: false,
+        data: StaticInfo,
+        info: {}
     }
 
     componentDidMount() {
@@ -19,17 +23,34 @@ export default class Projects extends Component {
     render() {
         let { data } = this.state
 
-        let renderCards = data.map((card, i) => {
+        // open modal
+        const modalOpen = () => this.setState({ modalShow: true })
+
+        // close modal
+        const modalClose = () => this.setState({ modalShow: false })
+
+        // add info to modal
+        const pullInfo = info => {
+            this.setState({ info }, () => console.log(this.state.info))
+        }
+
+        // project cards
+        const renderCards = data.map((card, i) => {
             return (
-                <Card key={i} info={card}/>
+                <Card key={i} info={card} infoFunction={pullInfo} onOpen={modalOpen}/>
             )
         })
 
         return (
             <Fragment>
-                <Row>
-                    {renderCards}
-                </Row>
+                <ButtonToolbar>
+                    <CardModal show={this.state.modalShow} onHide={modalClose} chosen={this.state.info}/>
+                </ButtonToolbar>
+                <div className="container-project">
+                    <Row>
+                        {renderCards}
+                    </Row>
+                </div>
             </Fragment>
         );
     }

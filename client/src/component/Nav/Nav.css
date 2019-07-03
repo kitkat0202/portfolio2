@@ -2,9 +2,9 @@
     background-color: var(--navColor);
     position: fixed;
     width: 290px;
-    height: 500px;
-    top: 20%;
-    left: 80px;
+    height: 520px;
+    top: 15%;
+    left: 55px;
     box-shadow: -8px 8px 5px #a3a3a3a8;
     min-width: 110px;
 }
@@ -110,8 +110,14 @@ a:-webkit-any-link {
 /* ////////////////////////////////////// */
 /* //////////// Media Queries /////////// */
 /* ////////////////////////////////////// */
+@media (max-width : 1024px) {
+    
+}
+
 @media (max-width : 992px) {
-	
+	.navbox {
+        left: 35px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -120,7 +126,7 @@ a:-webkit-any-link {
         vertical-align: middle;
         width: auto;
         height: auto;
-        margin: 300px 80px 20px 80px;
+        margin: 300px 80px 50px 80px;
     }
 
     .navbox-profile {
@@ -139,7 +145,7 @@ a:-webkit-any-link {
 
     .navbox-links {
         position: relative;
-        bottom: -2px;
+        bottom: 0px;
     }
     
     .navbox-links ul li{
@@ -155,6 +161,7 @@ a:-webkit-any-link {
         left: 0px;
         right: 0px;
         padding: 5px 15px;
+        margin-bottom: 0px;
         background-color: transparent;
         border-bottom: 2px solid var(--navColor);
         text-align: center;
@@ -184,14 +191,11 @@ a:-webkit-any-link {
 
 @media (max-width: 576px) {
     .navbox {
-        margin: 240px 50px 20px 50px;
+        margin: 300px 50px 20px 50px;
     }
 }
 
 @media (max-width: 425px) {
-    .navbox-profile {
-        padding: 0px;
-    }
     .navbox-links ul li{
         display: inline-block;
         width: 100%;
