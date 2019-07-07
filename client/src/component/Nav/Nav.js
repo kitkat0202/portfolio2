@@ -12,7 +12,7 @@ export default class Nav extends Component {
     
     render() {
         let { currentPage } = this.props
-        let renderLink = ["home", "projects", "contact"].map((link, i) => {
+        let renderLink = ["home", "portfolio", "contact"].map((link, i) => {
             return (
                 <li key={i} onClick={this.navClick}>
                     <Link to={`/${link}`}>

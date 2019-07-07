@@ -148,8 +148,8 @@ export default class Home extends Component {
                 </div>
                 <img className="home-bg-img" src="https://lh3.googleusercontent.com/0vEqFmBERv9VTQh9RSfx-ZBhd6JjkwA62-3b2GJOsMjl2Xdo10zALxHYhvyPb6wilNrCNmTxLnRnIQNc9L4K9AYMWuCLHfgn0lrdF3orxAGn0lOY01KMBfkM1KQCsnSkLRDBdC8YGUE2_gFxE1okW91jEbtm_1EiBJhB7OJ2QSU8tFfOltsT2bhQfYebj0myK80_9nc-uCIVMsUW1TYp0LemtUnQHExum2XVO-F4i1aBXFvmfaJmA-AXPK5cMcbHMdZTFDQ3_dLYzzri7TKi-7RhnZg4m_JRAqHfTN2LH6usiaDQ4wABR_YZzN9CPF9sywtvoZqg9MpPzKggqihPdm2eCo3RDWL85DGycQrT965khh1vAAcYzDk4GsumQAQjfo7fRQX_IL-rSSxI7wJHuOFCMVSqZzxLYnCMUbzAZOMqMr7Sgwa5U0DzFtOKl-y_z7bS2lMjmlA3Nm29vHMRarTEs2KZebkonoz-APzMjNLkHrZAzaMf6KqsApNlSPLZfxCz4sjsVC9U1IewF3jCTVV72oDQEyuU8qSYnIqAI7JjltA73A_PTR2jdquNS1snJTGK9UkspT6ACQg_NfuU-gCGqAEi-ntaTdkmm7TXIeGV23ZJEYwFcDcfCWQrw6K6oyvuq1dauT0UpdIdMdy7u2_2Quhk288=w1384-h1540-no" alt="gazebo" />
                 <div className="open-close-box">
-                    <button className="open-close-btn" onClick={this.handleOpenAll}><i className="fas fa-caret-down"></i><span className="only-large"> Open All</span></button>
-                    <button className="open-close-btn" onClick={this.handleCloseAll}><i className="fas fa-caret-up"></i><span className="only-large"> Close All</span></button>
+                    <button className="open-close-btn" onClick={this.handleOpenAll}><i className="fas fa-caret-down"></i><span className="only-large"> Expand</span></button>
+                    <button className="open-close-btn" onClick={this.handleCloseAll}><i className="fas fa-caret-up"></i><span className="only-large"> Collapse</span></button>
                 </div>
             </Fragment>
         );

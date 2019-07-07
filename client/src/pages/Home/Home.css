@@ -110,6 +110,10 @@ ul.sub-list li {
     color: var(--btnhover);
 }
 
+.bgc-white {
+    background-color: #fff;
+}
+
 .home-sub-title {
     font-weight: bolder;
     color: #000;
@@ -143,10 +147,6 @@ ul.sub-list li {
 	.home-sup-section {
         margin: 0 20px 20px 20px;
         padding: 15px;
-    }
-
-    .bgc-white {
-        background-color: #fff;
     }
 }
 

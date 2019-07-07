@@ -10,7 +10,7 @@ export default class Container extends Component {
         let { page } = this.props
         return (
             <div className="container-right">
-                {page === "contacts" || page === "contact" ? <Contact /> : page === "projects" || page === "project" ? <Projects /> : page === "home" || page === "/" || page === "" ? <Home /> : <Error />}
+                {page === "contacts" || page === "contact" ? <Contact /> : page === "portfolio" ? <Projects /> : page === "home" || page === "/" || page === "" ? <Home /> : <Error />}
             </div>
         );
     }

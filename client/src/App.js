@@ -11,7 +11,7 @@ class App extends Component {
 
     componentDidMount() {
         let { pathname } = window.location
-        pathname === '/projects' ? this.setState({page: "projects"}) : 
+        pathname === '/portfolio' ? this.setState({page: "portfolio"}) : 
         pathname === '/contact' ? this.setState({page: "contact"}) :
         pathname === '/home' || pathname === '/' ? this.setState({page: "home"}) : this.setState({page: "404"})
         

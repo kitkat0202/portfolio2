@@ -129,7 +129,7 @@ How to make a full MVC (Model View Controller) backend and a React frontend
 
 
 ###Step 12: Add the proxy in to the react package.json
-```"proxy": "http://localhost:8080/",``` (make sure the proxy is the correct server!!)
+```"proxy": "http://localhost:8080/",``` (make sure the proxy is the correct PORT from ./server.js)
 
 ###Step 13: install axios and react router in client side
     - cd client
@@ -142,5 +142,20 @@ How to make a full MVC (Model View Controller) backend and a React frontend
         -API.js
 
 
-###Step 15: Set up the dom-routes in App.js
-###Step 16: Set up the API.js
+###Step 16: Add in setupProxy.js
+    -needed for running react app sometimes
+```
+const proxy = require('http-proxy-middleware');
+module.exports = function(app) {
+    app.use(proxy('/api/*', 
+        { target: 'http://localhost:8080/' }
+    ));
+}
+```
+
+###Step 16: Set up the dom-routes in App.js
+###Step 17: Set up the API.js
+
+###Step 18: Before Deploying
+    - remember to remove Proxy from ./client/package.json
+    - remember to comment out the ./client/src/setupProxy.js
