@@ -20,21 +20,21 @@ How to make a full MVC (Model View Controller) backend and a React frontend
 ```npm i <package> --save-dev```
 
 
-###Step 1: npm initialization and get the package.json
+### Step 1: npm initialization and get the package.json
 ```npm init```
     - edit the package.json scripts
 
 
-###Step 2: download your npm packages
+### Step 2: download your npm packages
 `npm i express mongoose concurrently if-env`
 
 
-###Step 3: create the folders and files
-#FILES
+### Step 3: create the folders and files
+# FILES
     - server.js
     - .gitignore
 
-#FOLDERS
+# FOLDERS
 (obj would be the name of the data object ex: contact, messages, info)
     - client
         - create-react-app in here
@@ -61,23 +61,23 @@ How to make a full MVC (Model View Controller) backend and a React frontend
     - listen to port
 
 
-###Step 5: Set up models folder
+### Step 5: Set up models folder
     - index.js
     - models.js
 
 
-###Step 6:Set up controllers folder
+### Step 6:Set up controllers folder
     - modelController.js
 
 
-###Step 7: Set up routes
+### Step 7: Set up routes
     - index.js (send to "/api")
     - api
         - index.js (direct to correct extension after api call) 
         - modelRoute.js (send to "/api/model")
 
 
-###Step 8: Set up MLab online
+### Step 8: Set up MLab online
     - https://mlab.com/home?newLogin=1
     - create a new development
     - amazon web server - SANDBOX (free)
@@ -98,11 +98,11 @@ How to make a full MVC (Model View Controller) backend and a React frontend
     (mongodb://<dbuser>:<dbpassword>@ds235197.mlab.com:35197/boiler-plate) -- replace <dbuser> with user and <dbpassword> with the password
 
 
-###Step 9: Set up the config folder
+### Step 9: Set up the config folder
     - keys.js
 
 
-###Step 10: Create react app
+### Step 10: Create react app
     - from your root level (where server.js is at) enter in terminal:
 ```create-react-app client```
 
@@ -112,7 +112,7 @@ How to make a full MVC (Model View Controller) backend and a React frontend
 ```create-react-app .```
 
 
-###Step 11: Clear out junk in react files
+### Step 11: Clear out junk in react files
     Delete the whole file
     - README.md
     - src/logo.svg
@@ -128,19 +128,20 @@ How to make a full MVC (Model View Controller) backend and a React frontend
     - public/index.html (just the comments)
 
 
+
 ###Step 12: Add the proxy in to the react package.json
 ```"proxy": "http://localhost:8080/",``` (make sure the proxy is the correct PORT from ./server.js)
 
-###Step 13: install axios and react router in client side
+
+### Step 13: install axios and react router in client side
     - cd client
 ```npm i axios react-router-dom```
 
-###Step 14: Create the folders inside src folder
+### Step 14: Create the folders inside src folder
     - components
     - pages
     - utils
         -API.js
-
 
 ###Step 16: Add in setupProxy.js
     -needed for running react app sometimes
