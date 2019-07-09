@@ -103,7 +103,7 @@ export default class Contact extends Component {
                         </Col>
                     </Row>
                 </div>
-                <img className="contact-bg-img" src="https://lh3.googleusercontent.com/NnyvVqox0yg7XuIj7XHBcAwwH8oUTXPycaTUHWJLZHWynQDoWxFxMq8I6l43yxT7v8pvYa0_4JsaW8Or-9UBjNq4KKTS7IpftYURoX4YO2Z5uU8zN49LyhLWAodF3UOw7BsG5Y7wvxc7q93DJtfIXaiE1n1yXGi-kJRYWh8waTyzZkTxBdkcfgrZzgnfDymM_nkWn8Bg87Q3Ba6mFIIDYQwOvzOdDcCUlsmR86PFSEigenZi3cKN5dp-YvskeMYHc8K9ljAg1YtUt84D2tNqxvX_xTY4pnaUCYYBxS5MjifpQFBeQIQfpDBl9F47ah2ia5-CO7JSE4rwrUuzvJBFHmTDLpE-exvqag4Z3Kazdb3O53NcnWOlXWI7ziGN0W_y7pFW16_19BQXtm9NzFSnrLuqtpNxZoBd1MIdJVlU9GZ6VrNntIEuCXBPja05ZEVzVIX6RZfk2sMgbef2DhNi82-jIQvZlVRkk0iixC6FflR-Lbww-NPcy9suPeV-2eIdrjaE0U-6FFGokS4iFLh2Ogz--WLZZCTZEFAKfOonrspz6usqWk3iaT08vYkGM6DYGGAFk-C-IzN0X0HI-aWWuhtxBhXWmlN_xug-xdgvgzgot2k_AQ1p9eSLam9gHKvM8fH0tVlomlMrucPnvp9q7qA6nOeFRac=s1542-no" alt="lamp" />
+                <img className="contact-bg-img" src="https://lh3.googleusercontent.com/z120-6vRn76qxflX4Lf4_Lk08qKqRBqGbQi8RT7qLxSEvd6k3J5Ptj0kLyXJ79OVkFTpND3yvoEr6rfFKX01vdpLET2UdtJb2z2DRbYjcoAF1QOw3O7H5hRYlGK4xt0Onwwk8tyXS_RHPRZTdRVwoeotI7a5V4eEFrEkJWcmhS720bW3alH2vvTCDlRsqJlP49oigoJmpPY6UBbalNb2q4DWFHpoKcDI4L7pMcWi5eJ9-sJjLY4T6sw1VkApZx12E-LJyswRGRy1TKWQadB2h5udEYL2IxU42-br0PycZ-K8VWklGHgnRbTExDIJKNCuHJox3nbDROB-I64chtTxwizT40IiF-Cikniq5-5uojwBDfSzxGLvbCp47rx-i7mwPU71kfJN7xFo0M3hxdJDCP_hHd_Bq0VFuoVXJqkWS_5Ugy4fWVptgwu4aUgi6jl8LIcBsYsg7oEPCfz4th8agwRS2wOVSyshX_gQsbMSU3efqmibsYrI4-DFR2rS7jWRPl-TUX6jO0WccicTVDFphtY02PEFElT6kj2dD8dAbCuYey6wywzLqKzm3pMTIQ5OKVisym0hJZ5nEniHIJ_7gsQ8k0EP3Z13T0K30AQT4_7uaARlX8VxVbFDO9m8dK9lgqOzUl3466ujUdQnZ5cH_GcnIQWNTqA=s937-no" alt="lamp" />
             </div>
         );
     }
