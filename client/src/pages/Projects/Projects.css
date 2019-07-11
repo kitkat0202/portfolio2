@@ -5,7 +5,7 @@
 .project-bg-img {
     position: fixed;
     top: -50px;
-    right: 30px;
+    right: 10%;
     width: 550px;
     /* transform: rotate(8deg); */
     opacity: .45;
@@ -16,6 +16,12 @@
 /* ////////////////////////////////////// */
 /* //////////// Media Queries /////////// */
 /* ////////////////////////////////////// */
+@media (max-width : 2200px) {
+    .project-bg-img {
+        right: 30px;
+    }
+}
+
 @media (max-width: 425px) {
     .project-bg-img {
         position: absolute;

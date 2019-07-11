@@ -38,7 +38,7 @@
 .contact-bg-img {
     position: fixed;
     bottom: -80px;
-    right: -130px;
+    right: 10%;
     width: 550px;
     transform: scaleX(-1);
     opacity: .45;
@@ -103,6 +103,18 @@
 /* ////////////////////////////////////// */
 /* //////////// Media Queries /////////// */
 /* ////////////////////////////////////// */
+@media (max-width : 2200px) {
+    .contact-bg-img {
+        right: 0;
+    }
+}
+
+@media (max-width : 2000px) {
+    .contact-bg-img {
+        right: -130px;
+    }
+}
+
 @media (max-width : 992px) {
 	.contact-container {
         padding: 10px 20px;

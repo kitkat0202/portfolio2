@@ -33,7 +33,7 @@ ul.sub-list li {
 .home-bg-img {
     position: fixed;
     bottom: -80px;
-    right: -60px;
+    right: 10%;
     width: 550px;
     opacity: .45;
     z-index: -1;
@@ -139,6 +139,12 @@ ul.sub-list li {
 /* ////////////////////////////////////// */
 /* //////////// Media Queries /////////// */
 /* ////////////////////////////////////// */
+@media (max-width : 2200px) {
+    .home-bg-img {
+        right: -60px;
+    }
+}
+
 @media (max-width : 1045px) {
     .home-info {
         padding: 10px 20px 10px 50px;

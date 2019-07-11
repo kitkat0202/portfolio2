@@ -14,7 +14,6 @@ class App extends Component {
         pathname === '/portfolio' ? this.setState({page: "portfolio"}) : 
         pathname === '/contact' ? this.setState({page: "contact"}) :
         pathname === '/home' || pathname === '/' ? this.setState({page: "home"}) : this.setState({page: "404"})
-        
     }
 
     changepage = page => {
@@ -29,6 +28,7 @@ class App extends Component {
                 <Router>
                     <Switch>
                         <Route render={() => <Container page={page}/> } />
+                        <Route path="/:id" render={() => <Container page={page} /> } />
                     </Switch>
                 </Router>
             </div>

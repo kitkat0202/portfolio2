@@ -8,6 +8,7 @@ import './Container.css';
 export default class Container extends Component {
     render() {
         let { page } = this.props
+
         return (
             <div className="container-right">
                 {page === "contacts" || page === "contact" ? <Contact /> : page === "portfolio" ? <Projects /> : page === "home" || page === "/" || page === "" ? <Home /> : <Error />}
