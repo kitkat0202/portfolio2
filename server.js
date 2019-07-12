@@ -19,11 +19,8 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and views
 app.use(routes)
 
-// Connect to Mongo DB
-const db = process.env.NODE_ENV === 'production' ? process.env.MONGODB_URL : keys.MONGODB_URL
-
 mongoose
-    .connect(db, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false })
+    .connect(keys.MONGODB_URL, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false })
     .then(() => console.log("MongoDB Connected..."))
     .catch(err => console.log(`error: ${err}`))
 
