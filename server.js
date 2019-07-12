@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes)
 
 mongoose
-    .connect(keys.MONGODB_URL, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false })
+    .connect(keys.MONGODB_URI, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false })
     .then(() => console.log("MongoDB Connected..."))
     .catch(err => console.log(`error: ${err}`))
 
