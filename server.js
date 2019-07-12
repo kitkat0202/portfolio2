@@ -11,7 +11,6 @@ const PORT = process.env.PORT || 8080
 // app.use(express.urlencoded({ extended: true }));
 app.use(express.json())
 
-
 // Add routes, both API and views
 app.use(routes)
 
@@ -30,8 +29,6 @@ mongoose
     .connect(keys.MONGODB_URI, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false })
     .then(() => console.log("MongoDB Connected..."))
     .catch(err => console.log(`error: ${err}`))
-
-
 
 // Start the server
 app.listen(PORT, () => {
