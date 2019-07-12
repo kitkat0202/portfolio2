@@ -2,6 +2,7 @@
 const express = require("express")
 const mongoose = require("mongoose")
 const routes = require("./routes")
+const keys = require("./config/keys")
 
 const app = express()
 const PORT = process.env.PORT || 8080
@@ -19,7 +20,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes)
 
 // Connect to Mongo DB
-const db = process.env.MONGODB_URI || require("./config/keys").MONGODB_URI
+const db = process.env.NODE_ENV === 'production' ? process.env.MONGODB_URL : keys.MONGODB_URL
 
 mongoose
     .connect(db, { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false })
