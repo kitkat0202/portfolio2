@@ -2,14 +2,14 @@ import React, { Component, Fragment } from 'react'
 import { Row, ButtonToolbar } from 'react-bootstrap';
 import Card from '../../component/Card'
 import CardModal from '../../component/Card/CardModal'
-import StaticInfo from '../../data.json'
+// import StaticInfo from '../../data.json'
 import API from '../../utils/API'
 import './Projects.css'
 
 export default class Projects extends Component {
     state = {
         modalShow: false,
-        data: StaticInfo,
+        data: [],
         info: {}
     }
 
