@@ -29,7 +29,7 @@ export default class Nav extends Component {
                     <div className="profile-img">
                         <img src={ProfPic} alt="Katherine He Profile"/>
                     </div>
-                    <h1 className="profile-name">Katherine He</h1>
+                    <h1 className="profile-name">Katherine</h1>
                     <h2 className="profile-position">Full-stack Developer</h2>
                     <hr />
                 </div>
