@@ -129,8 +129,8 @@ How to make a full MVC (Model View Controller) backend and a React frontend
 
 
 
-###Step 12: Add the proxy in to the react package.json
-```"proxy": "http://localhost:8080/",``` (make sure the proxy is the correct PORT from ./server.js)
+<!-- ###Step 12: Add the proxy in to the react package.json
+```"proxy": "http://localhost:8080/",``` (make sure the proxy is the correct PORT from ./server.js) -->
 
 
 ### Step 13: install axios and react router in client side

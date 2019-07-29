@@ -1,20 +1,27 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import ProfPic from '../../images/IMG_7492.JPG'
 import './Nav.css'
 
 export default class Nav extends Component {
-    navClick = event => {
-        let { id }  = event.target
-        let { changePageFunc } = this.props
-        changePageFunc(id)
+    state = {
+        currentPage: ""
     }
-    
+
+    pageChange = event => {
+        let { id }  = event.target
+        this.setState({ currentPage: id })
+    }
+
+    componentDidMount() {
+        this.setState({ currentPage: window.location.pathname.replace("/", "") })
+    }
+
     render() {
-        let { currentPage } = this.props
+        let { currentPage } = this.state
         let renderLink = ["home", "portfolio", "contact"].map((link, i) => {
             return (
-                <li key={i} onClick={this.navClick}>
+                <li key={i} onClick={this.pageChange}>
                     <Link to={`/${link}`}>
                         <p className={`nlink ${currentPage === link ? "nlinkActive" : ""}`} id={`${link}`}>
                             {link}
@@ -35,7 +42,7 @@ export default class Nav extends Component {
                 </div>
                 <div className="navbox-links">
                     <ul>
-                        <Router>{renderLink}</Router>
+                        {renderLink}
                     </ul>
                 </div>
             </div>

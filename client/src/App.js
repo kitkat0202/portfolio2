@@ -1,37 +1,29 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Container from './component/Container'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
+import Error from './pages/404'
 import Nav from './component/Nav'
 import './App.css';
 
 class App extends Component {
-    state = {
-        page: "home"
-    }
-
-    componentDidMount() {
-        let { pathname } = window.location
-        pathname === '/portfolio' ? this.setState({page: "portfolio"}) : 
-        pathname === '/contact' ? this.setState({page: "contact"}) :
-        pathname === '/home' || pathname === '/' ? this.setState({page: "home"}) : this.setState({page: "404"})
-    }
-
-    changepage = page => {
-        this.setState({ page })
-    }
-
     render() {
-        let { page } = this.state
         return (
-            <div className="contain">
-                <Nav currentPage={page} changePageFunc={this.changepage} />
-                <Router>
-                    <Switch>
-                        <Route render={() => <Container page={page}/> } />
-                        <Route path="/:id" render={() => <Container page={page} /> } />
-                    </Switch>
-                </Router>
-            </div>
+            <Router>
+                <div className="contain">
+                    <Nav />
+                    <div className="container-right">
+                        <Switch>
+                            <Route exact path="/" render={() => <Home /> } />
+                            <Route exact path="/home" render={() => <Home /> } /> 
+                            <Route exact path="/portfolio" render={() => <Projects /> } /> 
+                            <Route exact path="/contact" render={() => <Contact /> } /> 
+                            <Route render={() => <Error /> } /> 
+                        </Switch>
+                    </div>
+                </div>
+            </Router>
         );
     }
 }
