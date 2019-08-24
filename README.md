@@ -135,7 +135,7 @@ How to make a full MVC (Model View Controller) backend and a React frontend
 
 ### Step 13: install axios and react router in client side
     - cd client
-```npm i axios react-router-dom```
+```npm i axios react-router-dom http-proxy-middleware```
 
 ### Step 14: Create the folders inside src folder
     - components
@@ -143,7 +143,7 @@ How to make a full MVC (Model View Controller) backend and a React frontend
     - utils
         -API.js
 
-###Step 16: Add in setupProxy.js
+###Step 15: Add in setupProxy.js
     -needed for running react app sometimes
 ```
 const proxy = require('http-proxy-middleware');
@@ -160,3 +160,75 @@ module.exports = function(app) {
 ###Step 18: Before Deploying
     - remember to remove Proxy from ./client/package.json
     - remember to comment out the ./client/src/setupProxy.js
+
+
+
+
+
+#TO ADD REDUX!!
+
+###Step 1: Add the necessary packages
+```npm i redux react-redux redux-thunk```
+
+###Step 2: The Files/ folders needed
+In SRC folder:
+
+    **One code doesn not change so just copy paste**
+    - store.js
+
+    **The state is held and changed here**
+    - reducer       
+        - index.js
+        - state1Reducer.js
+        - state2Reducer.js
+
+    **The actual Functions that will be called in the components/ pages -- calling api from backend if needed -- sending info to reducer to change state**
+    - action       
+        - types.js
+        - state1Actions.js
+        - state1Actions.js
+
+###Step 3: import necessary component in to App.js
+    import { Provider } from 'react-redux'
+    import store from './store'
+    
+    *In rendering of the APP.js contain everythin with in a:
+        <Provider store={store}>
+            <the app>
+        </Provider>
+
+###Step 4: In every componenet/ Page
+    <!-- TOP:    (the `...Func` is the function name from action folder) -->
+        import { connect } from 'react-redux'
+        import { getFunc postFunc, addFunc, deleteFunc } from '../../actions/state1Actions'
+        import PropTypes from 'prop-types'
+
+
+
+    <!-- MIDDLE:    If you need to get function in componentDidMount() -->
+        static propTypes = {
+            getFunc: PropTypes.func.isRequired,
+            state1: PropTypes.object.isRequired
+        }
+
+        componentDidMount() {
+            this.props.getFunc()
+        }
+
+
+
+    <!-- BOTTOM:    after class close and make sure to only export at bottom -->
+        const mapStateToProps = state => ({
+            state1: state.state1
+        })
+
+        export default connect( 
+            mapStateToProps, 
+            { getFunc postFunc, addFunc, deleteFunc }
+        )(component/page_name)
+
+
+
+
+
+#TO ADD AUTH
