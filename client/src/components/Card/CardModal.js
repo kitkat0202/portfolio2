@@ -32,7 +32,7 @@ export default class CardModal extends Component {
         ) : ""
 
         return (
-            <Modal {...this.props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
+            <Modal {...this.props} size="lg" aria-labelledby="contained-modal-title-vcenter" className="scrollbar scrollbar-message" centered>
                 <Button onClick={onHide} variant="danger" className="modal-close-btn">X</Button>
                 <Modal.Header>
                     <Modal.Title id="contained-modal-title-vcenter">
@@ -41,17 +41,20 @@ export default class CardModal extends Component {
                 </Modal.Header>
                 <Modal.Body>
                     <Row>
-                        <Col md={12} lg={6} className="scrollbar scrollbar-message fix-height">
-                            <h6 className="bolder">Description</h6>
+                        <Col md={12} lg={7} className="scrollbar scrollbar-message fix-height">
+                            <p className="modal-pinfo modal-date">Date: {chosen.date}</p>
+                            <h6 className="bolder">About the Project</h6>
                             <hr />
                             <p className="modal-pinfo modal-descript">{chosen.description}</p>
-                            <p className="modal-pinfo modal-date">Date: {chosen.date}</p>
+                            <h6 className="bolder">Back Story</h6>
+                            <hr />
+                            <p className="modal-pinfo modal-descript">{chosen.programming}</p>
                             <h6 className="bolder">Languages</h6>
                             <hr />
                             <p className="modal-pinfo modal-icon">{spanIcon}</p>
                         </Col>
-                        <Col md={12} lg={6}>
-                            <img src={chosen.imgPath === "" ? `https://via.placeholder.com/405x289` : chosen.imgPath} alt={chosen.name}/>
+                        <Col md={12} lg={5} style={{display: "flex"}}>
+                            <img  style={{margin: "auto"}} src={chosen.imgPath === "" ? `https://via.placeholder.com/405x289` : chosen.imgPath} alt={chosen.name}/>
                         </Col>
                     </Row>
                 </Modal.Body>

@@ -31,8 +31,8 @@
         "name": "Firebase",
         "iconbool": true,
         "showbool": false,
-        "span": "fas fa-fire",
-        "icon": "logos:firebase"
+        "span": "logos:firebase",
+        "icon": "fas fa-fire"
     },
     {
         "name": "Git",

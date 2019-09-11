@@ -7,8 +7,9 @@
 }
 
 .fix-height {
-    overflow: auto;
-    height: 320px;
+    padding: 0 20px;
+    /* overflow: auto;
+    height: 320px; */
 }
 
 .fix-height h6 {
@@ -38,7 +39,7 @@
 }
 
 .modal-date {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     text-align: right;
 }
 
@@ -124,6 +125,9 @@
 /* ///////////////////////// */
 /* ///// Undo defaults ///// */
 /* ///////////////////////// */
+.modal-lg {
+    max-width: 1000px;
+}
 .modal-content,
 .modal-footer,
 .modal-header {
@@ -140,6 +144,7 @@
 
 .modal-header {
     margin-bottom: -1px;
+    padding: 1rem 1rem 1px 1rem;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active {
