@@ -40,6 +40,11 @@
 /* //////////////////// */
 /* /////// Form /////// */
 /* //////////////////// */
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .contact-form input,
 .contact-form textarea {
     display: block;

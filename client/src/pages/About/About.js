@@ -21,7 +21,7 @@ export default class About extends Component {
             }
             
         })
-        const googleLink = "https://drive.google.com/file/d/1FdVwmc7eVeTBpjzLda5nwJXZGQYdJ8Sg/view?usp=sharing"
+        const googleLink = "https://drive.google.com/file/d/1EvLrs84M7KYAIQQCTU2jZIkiSaitN0tO/view?usp=sharing"
         return (
             <div className="about-info">
                 <Block 
