@@ -62,8 +62,8 @@ export default class CardModal extends Component {
                             <hr />
                             <p className="modal-pinfo modal-icon">{spanIcon}</p>
                         </Col>
-                        <Col md={12} lg={5} style={{display: "flex"}}>
-                            <img  style={{margin: "auto"}} src={chosen.imgPath === "" ? `https://via.placeholder.com/405x289` : chosen.imgPath} alt={chosen.name}/>
+                        <Col md={12} lg={5}>
+                            <img src={chosen.imgPath === "" ? `https://via.placeholder.com/405x289` : chosen.imgPath} alt={chosen.name}/>
                         </Col>
                     </Row>
                 </Modal.Body>
