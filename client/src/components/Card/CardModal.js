@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { Modal, Button, Row, Col } from 'react-bootstrap';
 import language from '../../language.json'
 import './CardModal.css';
@@ -43,12 +43,21 @@ export default class CardModal extends Component {
                     <Row>
                         <Col md={12} lg={7} className="scrollbar scrollbar-message fix-height">
                             <p className="modal-pinfo modal-date">Date: {chosen.date}</p>
-                            <h6 className="bolder">About the Project</h6>
-                            <hr />
-                            <p className="modal-pinfo modal-descript">{chosen.description}</p>
-                            <h6 className="bolder">Back Story</h6>
-                            <hr />
-                            <p className="modal-pinfo modal-descript">{chosen.programming}</p>
+
+                            {chosen.description === "" ? "" :
+                            (<Fragment>
+                                <h6 className="bolder">About the Project</h6>
+                                <hr />
+                                <p className="modal-pinfo modal-descript">{chosen.description}</p>
+                            </Fragment>)}
+
+                            {chosen.programming === "" ? "" :
+                            (<Fragment>
+                                <h6 className="bolder">Back Story</h6>
+                                <hr />
+                                <p className="modal-pinfo modal-descript">{chosen.programming}</p>
+                            </Fragment>)}
+                            
                             <h6 className="bolder">Languages</h6>
                             <hr />
                             <p className="modal-pinfo modal-icon">{spanIcon}</p>
@@ -59,7 +68,11 @@ export default class CardModal extends Component {
                     </Row>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button href={chosen.link} target="_blank" rel="noopener noreferrer">Site</Button>
+                    {chosen.link === "" ? (
+                        <Button href={chosen.github} target="_blank" rel="noopener noreferrer" disabled>Site</Button>
+                    ) : (
+                        <Button href={chosen.link} target="_blank" rel="noopener noreferrer">Site</Button>
+                    )}
                     <Button href={chosen.github} target="_blank" rel="noopener noreferrer">GitHub</Button>
                 </Modal.Footer>
             </Modal>

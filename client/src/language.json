@@ -43,7 +43,7 @@
     },
     {
         "name": "Holochain",
-        "iconbool": true,
+        "iconbool": false,
         "showbool": false,
         "span": "",
         "icon": ""
@@ -54,6 +54,13 @@
         "showbool": true,
         "span": "logos:html-5",
         "icon": "devicon-html5-plain-wordmark"
+    },
+    {
+        "name": "Handlebars",
+        "iconbool": false,
+        "showbool": false,
+        "span": "logos:handlebars",
+        "icon": ""
     },
     {
         "name": "Javascript",
@@ -92,7 +99,7 @@
     },
     {
         "name": "Redux",
-        "iconbool": true,
+        "iconbool": false,
         "showbool": false,
         "span": "logos:redux",
         "icon": ""
