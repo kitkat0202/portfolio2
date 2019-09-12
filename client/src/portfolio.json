@@ -63,11 +63,11 @@
         "note": "",
         "link": "https://aqueous-anchorage-13239.herokuapp.com/",
         "imgPath": "https://lh3.googleusercontent.com/iJnadStmcv3JNzW2MWh0Gu2L6KQTp9Zuk2SLmqhc3lqiND6l9iNDz4uSXjyz38IrVmgXUhn43QsuSpf4tO-NPuMwQ-uSzgl9galaFUFiZQwVLV3WxiVj4bxFU3VXDaHJOMIX66aqEPni3QiVSt999T2Sj7D_DdUYOTocyzyyL71kcpt7uO2OlV9CraF9WZUBwBqGOFqHzHvMEcEgYQfxz9If4Lfak02JQDM--TMIIxjYybgsT5Qc4E9W8NQMGuwwW9t2jXTCY7hGohkKf_Ral11QwnHouWDVOJKGFjB6KpT6rOHVRV4Vs8rLiQo8O0Jya7hVhofF0BvOibLYZ9faa2jdKjuHg-tPdpI44l9NR32wIpVUSY3yjUh881D9F7WnB6z0zUSEMDE6RUKf5GjhvO8Bx1h2J8Ril6NKcHjThOza-cVI1_IpEHUO0H8dvVZ7Fw43_VD9lZcxwWBNSzwrfbXb6ZmoUJbtdBM3mCM4KVgEuPiIqWKZ3hqpmgUuq_araAfyRlxyAeTVQ7J3xKsGAZkwUtncXdnY-6AxIh6u7ibHeHjDJXQAV7yKA_Kaix71_Iqf3MGTtHrFaFJnnB1YIvrVFQ3JKWT0vXul7kWoCUT9lV6i8PHSIpn5nhU7zqKmPR_wiCx3-sAeMN6xif8pHSEF2CcdbuiVOSJNX7wjd_5CXc7nw53_cg=w1405-h937-no",
-        "type": "Tech News Scraper",
+        "type": "Website News Scraper",
         "date":  "2018-10-18",
-        "programming": "",
+        "programming": "This project was much more difficult than I first imagined. Initially the plan was to use 'axios' (the more popular package), however the CNET page had preventions against this so I had to switch to 'puppeteer'. Then there wa an issue with puppeteer hosed on Heroku, which after much research was easily solved by this article https://stackoverflow.com/questions/52225461/puppeteer-unable-to-run-on-heroku. On top of that there were minor errors that kept popping up and since this was a scraping app Heroku kept showing the 'memory quota exceeded' error since I had the re-test scraping every time, I push new code up. Thinking back on this project, many of the issues could have been avoided if I had just chosen another site to scrape, however I believe that the learning experience I gained from this project was well worth the problems I face then.",
         "github": "https://github.com/kitkat0202/mongoscraper",
-        "description": ""
+        "description": "Using 'puppeteer and 'cheerio' this app takes the latest CNET new from 'https://www.cnet.com/news/' and presents them in a simple a clean fashion.  Each news card comes with a link to see the full article and the ability to save and add notes to your saved article cards."
     },
     {
         "tech": [ "HTML", "CSS", "Javascript", "jQuery", "NodeJS", "ExpressJS", "SQL" ],
