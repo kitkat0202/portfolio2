@@ -1,5 +1,5 @@
 [
-        {
+    {
         "tech": [ "HTML", "CSS", "Javascript", "React", "Holochain" ],
         "name": "Code Penguin",
         "featurebool": true,
@@ -11,7 +11,7 @@
         "date": "2018-12-01",
         "programming": "Code Penguin was submitted as my final project for the Columbia University Coding Bootcamp. The most notable achievement on this project was the use of Holochain technology as the backend integrating with a ReactJS front end. As Holochain was only an Alpha version, it was a difficult learning curve to get setup and started. I personally would not recommend using Holochain until a more stable version (with an easier setup method) is out, however it was fun to learn. My favorite part (and the part I was most involved with) is the React front end. It is a sleek dark design with a multilayered data filter mechanism that I am most proud of.",
         "github": "https://github.com/cefimenda/code-penguin",
-        "description": "An application to create a community for problem solving, brainstorming ideas and task alocation. This community has a 'pebble' incentive to keep the members active. The use off pebbles is to create 'tasks' for the comunity to answer/complete. The worth of each 'task' depends on the creator and community. After creating the task another user can add to the 'task' worth to up the value of this task, so the question can be answered quicker or more users from the community can contribute to the 'task'. There is a daily distribution of pebbles for logging in and you can also earn pebbles by answering the 'task' correctly. The pebbles you earn can then be used to crate your own tasks."
+        "description": "An application to create a community for problem solving, brainstorming ideas and task allocation. This community has a 'pebble' incentive to keep the members active. The use of pebbles is to create 'tasks' for the community to answer/complete. The worth of each 'task' depends on the creator and community. After creating the task another user can add to the 'task' worth to up the value of this task, so the question can be answered quicker or more users from the community can contribute to the 'task'. There is a daily distribution of pebbles for logging in and you can also earn pebbles by answering the 'task' correctly. The pebbles you earn can then be used to create your own tasks."
     },
     {
         "tech": [ "HTML", "CSS", "Javascript", "NodeJS", "ExpressJS", "SQL" ],
@@ -23,9 +23,9 @@
         "imgPath": "https://lh3.googleusercontent.com/bTzRXXKlrAcQKPqCTByN70-ixZyboJ_U3SOgrWObCMVDbCw8w_0oebov-q6X0ptkuvj7uKcwR03-erDHHrVI-pL-GHbKAK1KRNobsUdAX4xZL6sdcaf19AGtkpw3FGaSnawd89tlhLkpCL9EGviMNqyY9oba7ftWgyUMMWofQ4Sbbvp8t5Q6aiQRI-_Vn-KimOw68giZeHOm0DTFq1FdPmTaEeSio3pnZeOtjV6yVu6d15KBttLXqw8od1Y2qXEy8nhxD6Z1SAD8dogIJYGB3XalzAQPEucOXSC9V9mIw0RxUukABjysa0LBtpnsNKXxMqCmU0A1qIoFbQplkcjyYpVAl032PU6UEGUhEbYpx2Z6S58Mh7bKQ1qbRDiygOhz5tYEuqHCUcfA1dcvotU-01py_bXmBKP4P1UYAXp8LbO5CW8UGF_P0iFo5y54YNNrpvZDBHWYtebf7tWFOuLGEPOColTyk6N_b4CmPD1RJUCSj09F5k-be8qFHhqyAQV83-kZW9xgP0-XhalL4cw5gP09emdRxhLvoytKpflHNBimFoIBtH3HHIUUurTj4xI4MSy9Cs1Hx4jRwNYO9fe_ojn4oSfyoSeUBCPBGs9MaMBPfwEjR_9w-Rx0s8XJ8WWQ4jf05GP5XSc4EMdboybPpEp7ehjwP_Y=w1405-h937-no",
         "type": "Mass Email",
         "date": "2018-10-06",
-        "programming": "This project was created with our team's mutual desire to mass email our resume out and assist us in finding a job, while also differentiating us from other applicants. Our solution was to mass email nicely designed email templates through your own gmail accounts (with no third-party attachments). The most notable part of this project is the google auth (which is required and only way to login) and set up to directly use your gmail to send the mass email. For the future of this project I plan to install more templates (currently there is only one) and maybe changing the front end from Handlebars to React.",
+        "programming": "This project was created with our team's mutual desire to mass email our resume out and assist us in finding a job, while also differentiating us from other applicants. Our solution was to mass email nicely designed email templates through your own Gmail accounts (with no third-party attachments). The most notable part of this project is the google auth (which is required and only way to login) and set up to directly use your Gmail to send the mass email. For the future of this project I plan to install more templates (currently there is only one) and maybe changing the front end from Handlebars to React.",
         "github": "https://github.com/kitkat0202/courier",
-        "description": "Mass template email application through Users own gmail account, without the hassle of any third-party mediator. This application also let you import and save group mailing lists and keeps a history of all previous emails."
+        "description": "Mass template email application through Users own Gmail account, without the hassle of any third-party mediator. This application also let you import and save group mailing lists and keeps a history of all previous emails."
     },
     {
         "tech": [ "HTML", "CSS", "Javascript", "jQuery", "AJAX", "Firebase" ],
@@ -37,9 +37,9 @@
         "imgPath": "https://lh3.googleusercontent.com/xOgw1yG8q9D26D5wQ1EPtZiA38Lynt6zmV5xIYXiTwaGktrD3_hmO7xFE99PVSWV0mYJWAu5GaECOd-EP-w1WSpTMsm8Sgi5aJHmV6ZVQPAB_zKdQZs-6oZuEmWmTubwkXWCu7hyLJAWOn_r8A_-HE5km2ICmQWOEV9_63v0uKG98HGzq0H-54DV3C-fqu7LEU0vkHOoyn_8dhtM4TpdqRg-9rUMmTaWwK5qjXpVzaCTpJrTFuWqnCLBHV_VqHBhrANZAfHcaXwtJuniFdQ-pj1s8nXE2TOIKx97hWzPZSMrFtpbrRstww5WHs6bmnxq-9D4ZHzMhYqX3A9k1OUGVISgyGtlui8jiOWW_qkaicbs6viu31jWOle1sW9jzwiMCLHAmElUlS5TdMhTqmJ4EmSTnUUI3V0EMUtATTmatOtY4pcn1aTFgr84ZRUjH4CfZ8h0a3HNjRed1opEJ1Ec5A73DvO5WIkvtphTKHMW7Va38e5XfDs7277pfSRK0z1embj2VGC8qDZ3xmR0GQK_t8czQMes0n2opGRuvWkTLleKhKPTcShNX-hIc2UcTmsnOKJhP86_RuSXGfYnT_ZXt_CAv0SQMmj-Y7P3tFaUi2qcd7Qaq-uz0zly5VVpVbjbtdCsb_-iSoAd7JC5T_C-W0NCM_ylbvQ=w1405-h937-no",
         "type": "Resturant Sanitary Rating",
         "date":  "2018-08-11",
-        "programming": "This application was the very first group project I worked on, with basic HTML, CSS (bootstrap) and Javascript. We used the folloing API : Zomato, Mapbox GL JS, NYC Planning Labs Geosearch Beta, NYC Health inspection API. This project also includes a Firebase auth for its backend.",
+        "programming": "This application was the very first group project I worked on, with basic HTML, CSS (bootstrap) and JavaScript. We used the following API: Zomato, Mapbox GL JS, NYC Planning Labs Geosearch Beta, NYC Health inspection API. This project also includes a Firebase auth for its backend.",
         "github": "https://github.com/kitkat0202/Fly-in-Soup",
-        "description": "Fly-in-Soup was created with the NYC foodies in mind. I can easily look up resturants in your area, by borough, or by zip code and list the areas sanitary rating as well as resturant information. It also gives you the ability to filter resturants by ratings and if you log in with us you are able to save your favorite resturants."
+        "description": "Fly-in-Soup was created with the NYC foodies in mind. I can easily look up restaurants in your area, by borough, or by zip code and list the areas sanitary rating as well as restaurant information. It also gives you the ability to filter restaurants by ratings and if you log in with us you are able to save your favorite restaurants."
     },
     {
         "tech": [ "HTML", "CSS", "Javascript", "React" ],
@@ -51,9 +51,9 @@
         "imgPath": "https://lh3.googleusercontent.com/TrROc0aCiVXOYiL1XDXx1BLvi8kiAp_qi9XR0ruMafMDfohUIxEe4K0XZOdvXUNj9t4aaDMIsfGHqFRz6NTMTkrCjyWD_91UkCHADz5jJ2WNYTzBi2LZ5fSIQQRIdvo_uptjpdYtLiC7h8G4-HVSe-ut7n9iXI3qAnj-b4iLnOSWe1ktgVCNx-1zYv-QXnl_yvh4VJUe11KqFkykKB7eQXdVULbCyMxUuXTDfrjc_s4GmlsUxZgce1s9qZslf9f7-XiZT6fEaftc4SWPfCjI8RgrFHY-wUpIh3nEFzSrHyFjBhQJaxZosou-yMldz8p0f_5ZjNy7Grsp6h7XqVlPDE6vSNlo9a4wZN-3WDn4sRWnU5_P0qtDI7xIiMKDMdLL3JADh2PpkorUu2d7v2NXmFkfg6uuMbGOalL-y5_p1LYMRLn_oVb0f047CAYM5eunASzz3i2SRY1WxsYLBSWg6E_DUEB0RVjV0TFtfBTogC5us0T6-H8u_UpgSu1xdqOzlhiSRN2hB9ykEnL4yW5rXzLfJ207-7qSQqLGro5gH8JqyT0feSSaaJi8yQymjnNroVc1vziXfVLmT0FTqsREa5MxWOOcf79IV7-Mg-Xq9ChCIlrfYavOVyJdwl3bFaS0YoUf6MkTCfQAZ8K5y3Z4Hw1yRmPhEtg=w1405-h937-no",
         "type": "Memory Game",
         "date": "2018-10-27",
-        "programming": "Simple react application dark interface and georgous Kindom hearts images. My insperation actually came from another Kingdom hearts game I created that also included clicking these images although the other one included too much math. If you like math go check out 'Kingdom Hearts Crystals'.",
+        "programming": "Simple react application dark interface and gorgeous Kingdom Hearts images. My inspiration actually came from another Kingdom hearts game I created that also included clicking these images although the other one included too much math. If you like math go check out 'Kingdom Hearts Crystals'.",
         "github": "https://github.com/kitkat0202/clicky",
-        "description": "See how good your memory is. There are 12 images and 1 simple rule: Don't Click On An Image Twice, however there is a catch, the images will randomly shuffel on click. Let's see if you can get all 12."
+        "description": "See how good your memory is. There are 12 images and 1 simple rule: Don't Click On An Image Twice, however there is a catch, the images will randomly shuffle on click. Let's see if you can get all 12."
     },
     {
         "tech": [ "HTML", "CSS", "Javascript", "AJAX", "NodeJS", "ExpressJS", "MongoDB", "Handlebars" ],
@@ -65,7 +65,7 @@
         "imgPath": "https://lh3.googleusercontent.com/iJnadStmcv3JNzW2MWh0Gu2L6KQTp9Zuk2SLmqhc3lqiND6l9iNDz4uSXjyz38IrVmgXUhn43QsuSpf4tO-NPuMwQ-uSzgl9galaFUFiZQwVLV3WxiVj4bxFU3VXDaHJOMIX66aqEPni3QiVSt999T2Sj7D_DdUYOTocyzyyL71kcpt7uO2OlV9CraF9WZUBwBqGOFqHzHvMEcEgYQfxz9If4Lfak02JQDM--TMIIxjYybgsT5Qc4E9W8NQMGuwwW9t2jXTCY7hGohkKf_Ral11QwnHouWDVOJKGFjB6KpT6rOHVRV4Vs8rLiQo8O0Jya7hVhofF0BvOibLYZ9faa2jdKjuHg-tPdpI44l9NR32wIpVUSY3yjUh881D9F7WnB6z0zUSEMDE6RUKf5GjhvO8Bx1h2J8Ril6NKcHjThOza-cVI1_IpEHUO0H8dvVZ7Fw43_VD9lZcxwWBNSzwrfbXb6ZmoUJbtdBM3mCM4KVgEuPiIqWKZ3hqpmgUuq_araAfyRlxyAeTVQ7J3xKsGAZkwUtncXdnY-6AxIh6u7ibHeHjDJXQAV7yKA_Kaix71_Iqf3MGTtHrFaFJnnB1YIvrVFQ3JKWT0vXul7kWoCUT9lV6i8PHSIpn5nhU7zqKmPR_wiCx3-sAeMN6xif8pHSEF2CcdbuiVOSJNX7wjd_5CXc7nw53_cg=w1405-h937-no",
         "type": "Website News Scraper",
         "date":  "2018-10-18",
-        "programming": "This project was much more difficult than I first imagined. Initially the plan was to use 'axios' (the more popular package), however the CNET page had preventions against this so I had to switch to 'puppeteer'. Then there wa an issue with puppeteer hosed on Heroku, which after much research was easily solved by this article https://stackoverflow.com/questions/52225461/puppeteer-unable-to-run-on-heroku. On top of that there were minor errors that kept popping up and since this was a scraping app Heroku kept showing the 'memory quota exceeded' error since I had the re-test scraping every time, I push new code up. Thinking back on this project, many of the issues could have been avoided if I had just chosen another site to scrape, however I believe that the learning experience I gained from this project was well worth the problems I face then.",
+        "programming": "This project was much more difficult than I first imagined. Initially the plan was to use 'axios' (the more popular package), however the CNET page had preventions against this so I had to switch to 'puppeteer'. Then there was an issue with puppeteer hosed on Heroku, which after much research was easily solved by this article https://stackoverflow.com/questions/52225461/puppeteer-unable-to-run-on-heroku. On top of that there were minor errors that kept popping up and since this was a scraping app Heroku kept showing the 'memory quota exceeded' error since I had the re-test scraping every time, I push new code up. Thinking back on this project, many of the issues could have been avoided if I had just chosen another site to scrape, however I believe that the learning experience I gained from this project was well worth the problems I face then.",
         "github": "https://github.com/kitkat0202/mongoscraper",
         "description": "Using 'puppeteer and 'cheerio' this app takes the latest CNET new from 'https://www.cnet.com/news/' and presents them in a simple a clean fashion.  Each news card comes with a link to see the full article and the ability to save and add notes to your saved article cards."
     },
@@ -93,7 +93,7 @@
         "imgPath": "https://lh3.googleusercontent.com/er1aqPcBjF1FQOm2xnxaU2zcTpdyaYVlmmUS5YfZ-3Xu6BIl0YaByqXUDo_Yz4dKVMK7cVprfjKdlvVudcgjfOVpI7AcFb7fwwlIysvL0SDy1kr8YvLL77MLNIqGPl7Ac2JCXaoknj91npWgJDCS1D4gTVxK2d1M-zt3_V-JLVHzJtOaq8szwHyv0OYeNRsEETsntd288ykyDoVijbL2YA_6j6MWbRQae99MwLNhp66gJL1RlSBKPCcqI0YAqNNXFHBupYOLOXGueBOGJQMxUWAv_g_P4R93cT_8FiprQ4iR-_mCScXOh1u49LvdM3oABNU_VgYJxabgg6kXLhftdCKuM-IFCN4GUf_hchu_rj_XxiaXHSEtXNd-kAdPWq_yCPp6PCNQwbG4HO-aLwQn9doi--XWgL3NOUpHQv9R2lQkmoMcXRTaPv1LZmkTeFwQYs7-k4ur9ASg8I9DFkRSCKDeP5UwbH1l2KAQSiYe2vB4HpwUzxwjaPAJ58qf9ByCn6UZbjTTDbz7wjhEqJnHDXcoHLYT3yPbPKcD0gSpBTUklqLMMTjeVlYmXI1aGHDXho-ff8UOJ_9-IeCA3abd_UFb0vx2qyNsPeKMu8IxIrxtJ3-EZcorNo1x_VEYBsZKSSgWIlnOFh7eRwR94Y0ik9Cw-Nddg6I=w1405-h937-no",
         "type": "Search App",
         "date": "2018-08-19",
-        "programming": "This is a purely terminal app. Liri will request and recieve information 3 APIs (Tumblr, Spotify and OMBD (movie API)). The main objective of this app was to learn how to use restful APIs, getting keys and learning the authentication process of some popular and unpopular APIs.",
+        "programming": "This is a purely terminal app. LIRI will request and receive information 3 APIs (Tumblr, Spotify and OMBD (movie API)). The main objective of this app was to learn how to use restful APIs, getting keys and learning the authentication process of some popular and unpopular APIs.",
         "github": "https://github.com/kitkat0202/liri-node-app",
         "description": "LIRI Bot get movie info, music info, or last 20 postings from your Tumblr account. The required knowledge to run this app are basic knowledge on terminal node, GitHub and how to get API keys for Spotify and Tumblr. The instructions on how this works are on the GitHub readme."
     },
@@ -121,9 +121,9 @@
         "imgPath": "https://lh3.googleusercontent.com/FTFlAzclB6r7EeJ2NMpB1eX6eQMAj7xnU2a-XYa3mh7Lh20CwR70KW5Bs7ZYSSIjDRP_QSQQ9e-8flHQ6z_kMqcI4FGsHApA188PGglxmnwrVhvzINyZYADfgz1fp20fgb346Qn8N9frRbRWYKEWTF4BvP4cQt4wPa15Wi_BPnSkgZEeNbuZn4i3FwhZz8QK3ONQ1hwnC6mAYl4JfAZdFazvjmFts3h0XFln7vXUQIATOZNrHIdNZg750hGjZ1WkuZKMykeJASftkgxnRYLfVdHw92HWDuMXm32m0R6MNHW3tva5Ufrq5A8eXHgHFI4JcjXiv6u1eIMacGu6rJrM9vWqqwrgeh9Mf7sNmr9YbJMnHnJ4lAtMTjbkh2RNPztKC_RWyokLiuq9qsCgMXInnvfOwRejBrK4Jz68XNzAVLd7lep7DtryVsxcYEwrdI9F-p8gptyB-SLgV47U2YInSVUYmQX1uLx1VVPUx6LnoPr2etgJE6UMOIK8ixdtUWPoG2aqX97-gYEBWYphDAd8H08KKIIpgz2VUeZUsVOX3izvyHPWMIH7aplscnT5wMVrEl9xuKJ0wroJDKIs4P2C4Q3qGGGZg_vdRQ04ZCksMnK3zcZ2SA5B-dmaSim-cMHG4J8BytyyUawgAmYYAepp56E9nY4QrCU=w1405-h937-no",
         "type": "Image Search App",
         "date": "2018-07-24",
-        "programming": "A simple giphy search that calls to the giphy API. The CSS uses mostly Bootstrap framework and simple original CSS for cosmetic purposes. The Search history uses localstorage.",
+        "programming": "A simple Giphy search that calls to the Giphy API. The CSS uses mostly Bootstrap framework and simple original CSS for cosmetic purposes. The Search history uses localstorage.",
         "github": "https://github.com/kitkat0202/GifTastic",
-        "description": "Search for giphy images and save you search query. To make image start to play you just need to click on the image. While the giphy is playing you can see info on the giphy along with the link you need to use the giphy. If you cannot find the giphy you want with the first 20 results, there is an add more button to add 10 more images to the results."
+        "description": "Search for Giphy images and save you search query. To make image start to play you just need to click on the image. While the Giphy is playing you can see info on the Giphy along with the link you need to use the Giphy. If you cannot find the Giphy you want with the first 20 results, there is an add more button to add 10 more images to the results."
     },
     {
         "tech": [ "HTML", "CSS", "Javascript", "jQuery" ],
@@ -137,7 +137,7 @@
         "date": "2018-07-14",
         "programming": "A trivia game created to test the most avid Blizzard Diablo game players on their knowledge of the game. The technology used for the timer was a simple setTimeout function to count down the clock, if you need more time to answer the questions you can change the number of seconds on line 38 of './assets/javascript/app.js'. The most difficult part of this project was the design. Finding fonts, images and pieces that fit together and did not look too overwhelming.",
         "github": "https://github.com/kitkat0202/TriviaGame",
-        "description": "Test your Knowledge on the Diablo lore, but think quick you only have 20 seconds to read and answer each question in this 22 questions quiz. Will you be able to get 100% on your first try or will you need a couple of re-try's? Play to find out."
+        "description": "Test your Knowledge on the Diablo lore, but think quick you only have 20 seconds to read and answer each question in this 22 questions quiz. Will you be able to get 100% on your first try or will you need a couple of re-tries’? Play to find out."
     },
     {
         "tech": [ "HTML", "CSS", "Javascript", "jQuery", "AJAX" ],
@@ -149,9 +149,9 @@
         "imgPath": "https://lh3.googleusercontent.com/QaWzYCBm75cXYnIZh5mpgEr0zV4-VPWWzmucyiCPHx_Vrzn1l6fjKo2dLxHaqDT8csJkrrOYTVrdc1LuNoYrWGXKX0fyWBMjG4uAzk5NGoHEo5Bp8JQD19Z71Hy4o-3Vch1Jffm3seZYILle7P0YaQKfidNTnwtAbMtWRa7ea_1VAxKaNG-vYk1egl60R0f_jeiVcgFcScpjoRIp1_OC5dtinysWQqiNxT1xljETTtSv23KeizVBUbuUcT_PrKmvvMs9d0q55mRzTwbkHaDovA78ZOoGp4R5r1Yn5gc9HUV3tQpliCswnU6_t3XLQ7rVoDwuKByDHYpZaGgJ6onMMbUD-esbctn7Q9wfOKw73gLerZ2cQWwDWN_KHT-yNJtikj740DcIK1G-DJuuX8--S-w0PpPdOFZZikj4g9WwWA39uTf_vvlhjD2SiFIaYAnjVRIjsREUjFnYIplbzg-zOwG_zYqYNnoLpugVs-TUYLzLhMuJ3WKR00aCjNzhZZ2e1HIglUITd3BbTR2sKO2i-mqUH8oXrlurGGa1feBffGd7fHMz6cCOCLGIYaHImSVhOzrKuxMSFhkYv5sNDNPnmeQsDMHAsowKUBtp99pmb7UhZXtzBWg01Y95SVgiHXinPdB7juGUhJ36qIic2c3C6o_PoFMOh6g=w1405-h937-no",
         "type": "CSS Fun",
         "date":  "2018-07-07",
-        "programming": "This was a challenge to recreate a game with only a video as a guide line. I took some creative liberties and made it Pokemon/ Gameboy theme. Since this was the beginning of my programming experience the most difficult part was to make it mobile responsive and working around the wait time after calling the Pokemon API database. ",
+        "programming": "This was a challenge to recreate a game with only a video as a guide line. I took some creative liberties and made it Pokémon/ Gameboy theme. Since this was the beginning of my programming experience the most difficult part was to make it mobile responsive and working around the wait time after calling the Pokémon API database. ",
         "github": "https://github.com/kitkat0202/unit-4-game",
-        "description": "Simple game where you choose one Pokemon to defeat the rest. All stats are randomized numbers and all attacks are randomized numbers (although legendary Pokemon do have a higher chance of getting a better attack power). As you attack your attack power will grow but the opponent's will not. Stay alive till the very end and you will get one win point. (WARNING: This game has background music that will auto turn on at game start, however there is an option to turn the melody off after the game completely starts up)"},
+        "description": "Simple game where you choose one Pokémon to defeat the rest. All stats are randomized numbers and all attacks are randomized numbers (although legendary Pokémon do have a higher chance of getting a better attack power). As you attack your attack power will grow but the opponent's will not. Stay alive till the very end and you will get one win point. (WARNING: This game has background music that will auto turn on at game start, however there is an option to turn the melody off after the game completely starts up)"},
     {
         "tech": [ "HTML", "CSS", "Javascript", "jQuery" ],
         "name": "Kingdom Hearts Crystals",
@@ -178,6 +178,6 @@
         "date": "2018-06-28",
         "programming": "The very first homework in the Columbia University Coding bootcamp, includes only very simple HTML, CSS and JavaScript. This project is mobile responsive with out the use of any CSS framework. If you just want to see the flow of the game and are not very good with anime you can comment in line 294 of './assets/javascript/game.js'",
         "github": "https://github.com/kitkat0202/Word-Guess-Game",
-        "description": "Let's play guess the anime. You have 10 lives use your keyboard to guess the letters of the anime, but worry not you will be given an image as a clue on what the anime is. There are a total of 40 different anime see how well you do."
+        "description": "Let's play guess the anime. You have 10 lives use your keyboard to guess the letters of the anime, but worry not you will be given an image as a clue on what the anime is. There is a total of 40 different anime see how well you do."
     }
 ]
