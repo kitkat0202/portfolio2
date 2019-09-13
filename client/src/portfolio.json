@@ -39,7 +39,7 @@
         "date":  "2018-08-11",
         "programming": "This application was the very first group project I worked on, with basic HTML, CSS (bootstrap) and JavaScript. We used the following API: Zomato, Mapbox GL JS, NYC Planning Labs Geosearch Beta, NYC Health inspection API. This project also includes a Firebase auth for its backend.",
         "github": "https://github.com/kitkat0202/Fly-in-Soup",
-        "description": "Fly-in-Soup was created with the NYC foodies in mind. I can easily look up restaurants in your area, by borough, or by zip code and list the areas sanitary rating as well as restaurant information. It also gives you the ability to filter restaurants by ratings and if you log in with us you are able to save your favorite restaurants."
+        "description": "Fly-in-Soup was created with the NYC foodies in mind. It can easily look up restaurants in your area, by borough, or by zip code and list the areas sanitary rating as well as restaurant information. It also gives you the ability to filter restaurants by ratings and if you log in with us you are able to save your favorite restaurants."
     },
     {
         "tech": [ "HTML", "CSS", "Javascript", "React" ],

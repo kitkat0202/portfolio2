@@ -7,9 +7,9 @@ export default class Nav extends Component {
         let { currentPage, pageChange } = this.props
         let renderLink = ["home", "portfolio", "about", "contact"].map((link, i) => {
             return (
-                <li key={i} onClick={pageChange}>
+                <li key={i}>
                     <Link to={`/${link}`}>
-                        <p className={`nlink ${currentPage === link || (currentPage === "" && link === "home") ? "nlinkActive" : ""}`} id={`${link}`}>
+                        <p className={`nlink ${currentPage === link || (currentPage === "" && link === "home") ? "nlinkActive" : ""}`}  onClick={pageChange} id={`${link}`}>
                             {link}
                         </p> 
                     </Link>
