@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Error from './pages/Error'
 import Nav from './components/Nav'
 import './App.css';
+// import { log } from 'util'
 
 class App extends Component {
     state = {
@@ -15,11 +16,17 @@ class App extends Component {
 
     componentDidMount() {
         this.setState({ currentPage: window.location.pathname.replace("/", "") })
+
+        // Handle back button
+        window.onpopstate = ()=> {
+            this.setState({ currentPage: window.location.pathname.replace("/", "") })
+        }
+        
     }
 
     pageChange = event => {
         let { id }  = event.target
-        this.setState({ currentPage: id })
+        this.setState({ currentPage: id }, () => { console.log(this.state.currentPage)})
     }
 
     render() {
