@@ -109,11 +109,6 @@ ul li{
 /* ////////////////////////////// */
 /* ///////// Home Page ////////// */
 /* ////////////////////////////// */
-.navbox-home {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .navbox-profile-home {
     text-align: center;
     width: 270px;
