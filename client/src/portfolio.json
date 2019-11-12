@@ -1,12 +1,19 @@
 [
     {
-        "tech": [ "HTML", "CSS", "Javascript", "React", "Holochain" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "React",
+            "Holochain"
+        ],
         "name": "Code Penguin",
+        "freelancebool": false,
         "featurebool": true,
         "showbool": true,
         "note": "(collaborative work)",
         "link": "https://code-penguin.herokuapp.com/",
-        "imgPath": "https://lh3.googleusercontent.com/WeodLjbHhmJgOVG240wReo2HSFdo7U8n6uoNRLJSKCYYAv8Fq5hZod-h7-xfvcQL3WnS14ohiO0B-3I_c95jT8HuAy7yaPOwRWqDkaX2XDPdSLZCn3O6eOoE6hXjEki0o2uikcajAzKnfoDiSpoq9WqdxYKBkt3dnM65TPY2hMhGJ8D7Qc3D5iJ75QhtoI8Z2bweI1UhkCIvugh6OIyeabFQFViRKu4Vc5x89AqfZKf6VDNpP83ndq4V8hs35_8Z-la7FN4HeG7DC3yHHG9QkPJeWgMGRhIb5_oUs-FH3Y3lV6Gv6XrIxlyBjHVvXI3ODqzE7ES2efxptaHT4NfowEubKl3_3sm_4_Czf7Sv7dYCLjbklHwF8dYkAcFxloTVWTeM7A7KKCuPcdqsMZCwFpNgUBLAjASukKOUF-V4nZ9STjc8zsFeLbdbbBGKwf2-ts6RatWNAScBqEXCaG7KP_9uL0CfSW20Q-gIOgISbEEj50e5sq2DE7VXjieDizxxRem6cTllfkpITCicDwPL3oGCYNb8JrIIb3vTNDHXTaFA7TpLYzY2cxZZx558ez_dALj0q2mD7mPLA1Wn5LP6AkEj-tvv0WbbDIAH91_krjgIEOIvl2CmPAACIm00EDjucUwf-jnusztfYfjC0DROoQlSIa4AkrM=w1405-h937-no",
+        "imgPath": "./images/code_penguin.png",
         "type": "Code Question Community",
         "date": "2018-12-01",
         "programming": "Code Penguin was submitted as my final project for the Columbia University Coding Bootcamp. The most notable achievement on this project was the use of Holochain technology as the backend integrating with a ReactJS front end. As Holochain was only an Alpha version, it was a difficult learning curve to get setup and started. I personally would not recommend using Holochain until a more stable version (with an easier setup method) is out, however it was fun to learn. My favorite part (and the part I was most involved with) is the React front end. It is a sleek dark design with a multilayered data filter mechanism that I am most proud of.",
@@ -14,13 +21,21 @@
         "description": "An application to create a community for problem solving, brainstorming ideas and task allocation. This community has a 'pebble' incentive to keep the members active. The use of pebbles is to create 'tasks' for the community to answer/complete. The worth of each 'task' depends on the creator and community. After creating the task another user can add to the 'task' worth to up the value of this task, so the question can be answered quicker or more users from the community can contribute to the 'task'. There is a daily distribution of pebbles for logging in and you can also earn pebbles by answering the 'task' correctly. The pebbles you earn can then be used to create your own tasks."
     },
     {
-        "tech": [ "HTML", "CSS", "Javascript", "NodeJS", "ExpressJS", "SQL" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "NodeJS",
+            "ExpressJS",
+            "SQL"
+        ],
         "name": "Courier",
+        "freelancebool": false,
         "featurebool": true,
         "showbool": true,
         "note": "(collaborative work)",
         "link": "https://courier-heroku-app.herokuapp.com/",
-        "imgPath": "https://lh3.googleusercontent.com/bTzRXXKlrAcQKPqCTByN70-ixZyboJ_U3SOgrWObCMVDbCw8w_0oebov-q6X0ptkuvj7uKcwR03-erDHHrVI-pL-GHbKAK1KRNobsUdAX4xZL6sdcaf19AGtkpw3FGaSnawd89tlhLkpCL9EGviMNqyY9oba7ftWgyUMMWofQ4Sbbvp8t5Q6aiQRI-_Vn-KimOw68giZeHOm0DTFq1FdPmTaEeSio3pnZeOtjV6yVu6d15KBttLXqw8od1Y2qXEy8nhxD6Z1SAD8dogIJYGB3XalzAQPEucOXSC9V9mIw0RxUukABjysa0LBtpnsNKXxMqCmU0A1qIoFbQplkcjyYpVAl032PU6UEGUhEbYpx2Z6S58Mh7bKQ1qbRDiygOhz5tYEuqHCUcfA1dcvotU-01py_bXmBKP4P1UYAXp8LbO5CW8UGF_P0iFo5y54YNNrpvZDBHWYtebf7tWFOuLGEPOColTyk6N_b4CmPD1RJUCSj09F5k-be8qFHhqyAQV83-kZW9xgP0-XhalL4cw5gP09emdRxhLvoytKpflHNBimFoIBtH3HHIUUurTj4xI4MSy9Cs1Hx4jRwNYO9fe_ojn4oSfyoSeUBCPBGs9MaMBPfwEjR_9w-Rx0s8XJ8WWQ4jf05GP5XSc4EMdboybPpEp7ehjwP_Y=w1405-h937-no",
+        "imgPath": "./images/courior.png",
         "type": "Mass Email",
         "date": "2018-10-06",
         "programming": "This project was created with our team's mutual desire to mass email our resume out and assist us in finding a job, while also differentiating us from other applicants. Our solution was to mass email nicely designed email templates through your own Gmail accounts (with no third-party attachments). The most notable part of this project is the google auth (which is required and only way to login) and set up to directly use your Gmail to send the mass email. For the future of this project I plan to install more templates (currently there is only one) and maybe changing the front end from Handlebars to React.",
@@ -28,27 +43,41 @@
         "description": "Mass template email application through Users own Gmail account, without the hassle of any third-party mediator. This application also let you import and save group mailing lists and keeps a history of all previous emails."
     },
     {
-        "tech": [ "HTML", "CSS", "Javascript", "jQuery", "AJAX", "Firebase" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "AJAX",
+            "Firebase"
+        ],
         "name": "Fly-in-Soup",
+        "freelancebool": false,
         "featurebool": true,
         "showbool": true,
         "note": "(collaborative work)",
         "link": "https://evansimonross.github.io/Fly-in-Soup/",
-        "imgPath": "https://lh3.googleusercontent.com/xOgw1yG8q9D26D5wQ1EPtZiA38Lynt6zmV5xIYXiTwaGktrD3_hmO7xFE99PVSWV0mYJWAu5GaECOd-EP-w1WSpTMsm8Sgi5aJHmV6ZVQPAB_zKdQZs-6oZuEmWmTubwkXWCu7hyLJAWOn_r8A_-HE5km2ICmQWOEV9_63v0uKG98HGzq0H-54DV3C-fqu7LEU0vkHOoyn_8dhtM4TpdqRg-9rUMmTaWwK5qjXpVzaCTpJrTFuWqnCLBHV_VqHBhrANZAfHcaXwtJuniFdQ-pj1s8nXE2TOIKx97hWzPZSMrFtpbrRstww5WHs6bmnxq-9D4ZHzMhYqX3A9k1OUGVISgyGtlui8jiOWW_qkaicbs6viu31jWOle1sW9jzwiMCLHAmElUlS5TdMhTqmJ4EmSTnUUI3V0EMUtATTmatOtY4pcn1aTFgr84ZRUjH4CfZ8h0a3HNjRed1opEJ1Ec5A73DvO5WIkvtphTKHMW7Va38e5XfDs7277pfSRK0z1embj2VGC8qDZ3xmR0GQK_t8czQMes0n2opGRuvWkTLleKhKPTcShNX-hIc2UcTmsnOKJhP86_RuSXGfYnT_ZXt_CAv0SQMmj-Y7P3tFaUi2qcd7Qaq-uz0zly5VVpVbjbtdCsb_-iSoAd7JC5T_C-W0NCM_ylbvQ=w1405-h937-no",
+        "imgPath": "./images/Fly_in_soup.png",
         "type": "Resturant Sanitary Rating",
-        "date":  "2018-08-11",
+        "date": "2018-08-11",
         "programming": "This application was the very first group project I worked on, with basic HTML, CSS (bootstrap) and JavaScript. We used the following API: Zomato, Mapbox GL JS, NYC Planning Labs Geosearch Beta, NYC Health inspection API. This project also includes a Firebase auth for its backend.",
         "github": "https://github.com/kitkat0202/Fly-in-Soup",
         "description": "Fly-in-Soup was created with the NYC foodies in mind. It can easily look up restaurants in your area, by borough, or by zip code and list the areas sanitary rating as well as restaurant information. It also gives you the ability to filter restaurants by ratings and if you log in with us you are able to save your favorite restaurants."
     },
     {
-        "tech": [ "HTML", "CSS", "Javascript", "React" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "React"
+        ],
         "name": "Kingdom Hearts Click",
+        "freelancebool": false,
         "featurebool": false,
         "showbool": true,
         "note": "",
         "link": "https://kitkat0202.github.io/clicky/",
-        "imgPath": "https://lh3.googleusercontent.com/TrROc0aCiVXOYiL1XDXx1BLvi8kiAp_qi9XR0ruMafMDfohUIxEe4K0XZOdvXUNj9t4aaDMIsfGHqFRz6NTMTkrCjyWD_91UkCHADz5jJ2WNYTzBi2LZ5fSIQQRIdvo_uptjpdYtLiC7h8G4-HVSe-ut7n9iXI3qAnj-b4iLnOSWe1ktgVCNx-1zYv-QXnl_yvh4VJUe11KqFkykKB7eQXdVULbCyMxUuXTDfrjc_s4GmlsUxZgce1s9qZslf9f7-XiZT6fEaftc4SWPfCjI8RgrFHY-wUpIh3nEFzSrHyFjBhQJaxZosou-yMldz8p0f_5ZjNy7Grsp6h7XqVlPDE6vSNlo9a4wZN-3WDn4sRWnU5_P0qtDI7xIiMKDMdLL3JADh2PpkorUu2d7v2NXmFkfg6uuMbGOalL-y5_p1LYMRLn_oVb0f047CAYM5eunASzz3i2SRY1WxsYLBSWg6E_DUEB0RVjV0TFtfBTogC5us0T6-H8u_UpgSu1xdqOzlhiSRN2hB9ykEnL4yW5rXzLfJ207-7qSQqLGro5gH8JqyT0feSSaaJi8yQymjnNroVc1vziXfVLmT0FTqsREa5MxWOOcf79IV7-Mg-Xq9ChCIlrfYavOVyJdwl3bFaS0YoUf6MkTCfQAZ8K5y3Z4Hw1yRmPhEtg=w1405-h937-no",
+        "imgPath": "./images/KH_memory.png",
         "type": "Memory Game",
         "date": "2018-10-27",
         "programming": "Simple react application dark interface and gorgeous Kingdom Hearts images. My inspiration actually came from another Kingdom hearts game I created that also included clicking these images although the other one included too much math. If you like math go check out 'Kingdom Hearts Crystals'.",
@@ -56,27 +85,46 @@
         "description": "See how good your memory is. There are 12 images and 1 simple rule: Don't Click On An Image Twice, however there is a catch, the images will randomly shuffle on click. Let's see if you can get all 12."
     },
     {
-        "tech": [ "HTML", "CSS", "Javascript", "AJAX", "NodeJS", "ExpressJS", "MongoDB", "Handlebars" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "AJAX",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "Handlebars"
+        ],
         "name": "CNET News Scraper",
+        "freelancebool": false,
         "featurebool": false,
         "showbool": true,
         "note": "",
         "link": "https://aqueous-anchorage-13239.herokuapp.com/",
-        "imgPath": "https://lh3.googleusercontent.com/iJnadStmcv3JNzW2MWh0Gu2L6KQTp9Zuk2SLmqhc3lqiND6l9iNDz4uSXjyz38IrVmgXUhn43QsuSpf4tO-NPuMwQ-uSzgl9galaFUFiZQwVLV3WxiVj4bxFU3VXDaHJOMIX66aqEPni3QiVSt999T2Sj7D_DdUYOTocyzyyL71kcpt7uO2OlV9CraF9WZUBwBqGOFqHzHvMEcEgYQfxz9If4Lfak02JQDM--TMIIxjYybgsT5Qc4E9W8NQMGuwwW9t2jXTCY7hGohkKf_Ral11QwnHouWDVOJKGFjB6KpT6rOHVRV4Vs8rLiQo8O0Jya7hVhofF0BvOibLYZ9faa2jdKjuHg-tPdpI44l9NR32wIpVUSY3yjUh881D9F7WnB6z0zUSEMDE6RUKf5GjhvO8Bx1h2J8Ril6NKcHjThOza-cVI1_IpEHUO0H8dvVZ7Fw43_VD9lZcxwWBNSzwrfbXb6ZmoUJbtdBM3mCM4KVgEuPiIqWKZ3hqpmgUuq_araAfyRlxyAeTVQ7J3xKsGAZkwUtncXdnY-6AxIh6u7ibHeHjDJXQAV7yKA_Kaix71_Iqf3MGTtHrFaFJnnB1YIvrVFQ3JKWT0vXul7kWoCUT9lV6i8PHSIpn5nhU7zqKmPR_wiCx3-sAeMN6xif8pHSEF2CcdbuiVOSJNX7wjd_5CXc7nw53_cg=w1405-h937-no",
+        "imgPath": "./images/news_scraper.png",
         "type": "Website News Scraper",
-        "date":  "2018-10-18",
+        "date": "2018-10-18",
         "programming": "This project was much more difficult than I first imagined. Initially the plan was to use 'axios' (the more popular package), however the CNET page had preventions against this so I had to switch to 'puppeteer'. Then there was an issue with puppeteer hosed on Heroku, which after much research was easily solved by this article https://stackoverflow.com/questions/52225461/puppeteer-unable-to-run-on-heroku. On top of that there were minor errors that kept popping up and since this was a scraping app Heroku kept showing the 'memory quota exceeded' error since I had the re-test scraping every time, I push new code up. Thinking back on this project, many of the issues could have been avoided if I had just chosen another site to scrape, however I believe that the learning experience I gained from this project was well worth the problems I face then.",
         "github": "https://github.com/kitkat0202/mongoscraper",
         "description": "Using 'puppeteer and 'cheerio' this app takes the latest CNET new from 'https://www.cnet.com/news/' and presents them in a simple a clean fashion.  Each news card comes with a link to see the full article and the ability to save and add notes to your saved article cards."
     },
     {
-        "tech": [ "HTML", "CSS", "Javascript", "jQuery", "NodeJS", "ExpressJS", "SQL" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "NodeJS",
+            "ExpressJS",
+            "SQL"
+        ],
         "name": "Eat Da Burger Game",
+        "freelancebool": false,
         "featurebool": false,
         "showbool": false,
         "note": "",
         "link": "https://shielded-stream-23766.herokuapp.com/",
-        "imgPath": "https://lh3.googleusercontent.com/nd3BrrwMXxvVImUJqM-UJf2KmWC4DroU2I6RGBxF7Lzl40lxJDwI7TEhnt2_SuYO7A9ZaWlrjoKWywxixUlQwSzijT3IiLjsOoJj-k5pmamuCL9rwcMNmiIHDTeWuUnpDQOh_tGUyCyTWPAA1Haht30keu87C579imVGx32_NXcARh_iJXnht65DJtQoRSp1rzLI3z-Lp11KwXKDC7PqkcCCVOmXMv112riooJgycN4U3zbJu6dq1E-NahIgAZoTZftR0RrlsbpdTruoaPnAZLL0TCQwvvA_PIEuuWUbZU9ceiTzRMpNObl0HApsZ32quqmN9h7zHJuUS79VMUKLcQ-oLTVT2T8p4-MjppCazWILv1rWiGnEOBFFV6-sUDChEB1fjlnCn1-Z_uRYTPfn-IK4Gqalo3bc-Okb_USbrHdzUERWYeOo7yF6Fcn_uHouJDEt5G139M5wWCA0u2APetO-EsqJOzAr5OthYx4dRyqJnBvCgpF4etQqdtR-zEz3eZACo5B5zuoOUwvo4betsCzXsOPDo-SvZw658vkNaIk8KdezJXAYuBzmaNw5J8Vc9QJAuTYOnZA2i2Hj-KEJ6yNBhdxeOtOTaI5Y-ze2HTlUG8giwpil8qPBIIZiCX2Y8stMPLovBlG1FpqgEQWIGXf2zIgAzCY=w1404-h937-no",
+        "imgPath": "./images/burger.png",
         "type": "CSS Fun",
         "date": "2018-09-20",
         "programming": "Simple application created for Columbia Coding Bootcamp Homework. The focus of the app was to practice using NodeJS and SQL backend then hosting it on Heroku.",
@@ -84,13 +132,18 @@
         "description": "Add a burger eat a burger. Simple game with no wins or loses and a simple interface."
     },
     {
-        "tech": [ "Javascript", "AJAX", "NodeJS" ],
+        "tech": [
+            "Javascript",
+            "AJAX",
+            "NodeJS"
+        ],
         "name": "LIRI Bot",
+        "freelancebool": false,
         "featurebool": false,
         "showbool": true,
         "note": "(terminal needed)",
         "link": "",
-        "imgPath": "https://lh3.googleusercontent.com/er1aqPcBjF1FQOm2xnxaU2zcTpdyaYVlmmUS5YfZ-3Xu6BIl0YaByqXUDo_Yz4dKVMK7cVprfjKdlvVudcgjfOVpI7AcFb7fwwlIysvL0SDy1kr8YvLL77MLNIqGPl7Ac2JCXaoknj91npWgJDCS1D4gTVxK2d1M-zt3_V-JLVHzJtOaq8szwHyv0OYeNRsEETsntd288ykyDoVijbL2YA_6j6MWbRQae99MwLNhp66gJL1RlSBKPCcqI0YAqNNXFHBupYOLOXGueBOGJQMxUWAv_g_P4R93cT_8FiprQ4iR-_mCScXOh1u49LvdM3oABNU_VgYJxabgg6kXLhftdCKuM-IFCN4GUf_hchu_rj_XxiaXHSEtXNd-kAdPWq_yCPp6PCNQwbG4HO-aLwQn9doi--XWgL3NOUpHQv9R2lQkmoMcXRTaPv1LZmkTeFwQYs7-k4ur9ASg8I9DFkRSCKDeP5UwbH1l2KAQSiYe2vB4HpwUzxwjaPAJ58qf9ByCn6UZbjTTDbz7wjhEqJnHDXcoHLYT3yPbPKcD0gSpBTUklqLMMTjeVlYmXI1aGHDXho-ff8UOJ_9-IeCA3abd_UFb0vx2qyNsPeKMu8IxIrxtJ3-EZcorNo1x_VEYBsZKSSgWIlnOFh7eRwR94Y0ik9Cw-Nddg6I=w1405-h937-no",
+        "imgPath": "./images/LIRI_Bot.png",
         "type": "Search App",
         "date": "2018-08-19",
         "programming": "This is a purely terminal app. LIRI will request and receive information 3 APIs (Tumblr, Spotify and OMBD (movie API)). The main objective of this app was to learn how to use restful APIs, getting keys and learning the authentication process of some popular and unpopular APIs.",
@@ -98,13 +151,20 @@
         "description": "LIRI Bot get movie info, music info, or last 20 postings from your Tumblr account. The required knowledge to run this app are basic knowledge on terminal node, GitHub and how to get API keys for Spotify and Tumblr. The instructions on how this works are on the GitHub readme."
     },
     {
-        "tech": [ "HTML", "CSS", "Javascript", "jQuery", "Firebase" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "Firebase"
+        ],
         "name": "Multiplayer Rock Paper Scissors",
+        "freelancebool": false,
         "featurebool": false,
         "showbool": true,
         "note": "",
         "link": "https://kitkat0202.github.io/RPS-Multiplayer/",
-        "imgPath": "https://lh3.googleusercontent.com/Z269G5tU--yolq15xId3YGl1rvtiTPLPamtavKAY4UJJA4twwS03aTQ_wYPE4uCv03NRDpDwNVDhgsXrFanbMtRuvdq2FTRD9l_EN3Y8jbnYKnIk4R5hGfXOD3et7GiaRlSF-eEzzgj2KORzXCp9oRHABOs0tJD0yTujHsV9rasHbiUFUzhEROv-9DNvPQ3LvnYIYnHaBsGIQHdWi7-lwFXiTT-Dnn68RfYgKokF54X_MuHYlOMFYvvRv4ENZz8R9HWk8nTveBR2Aek9ueCe3hl_LCeYolL1-QrlG-s0bxiJICP7FUbQknGAvKkCqQWFluZznJy77Aqsn8chfWZH6AHN71O4qJS6RTa7StY4GEaz_ToK3ep4TuortlLCrd_UO_hWm5VWMYdI51-euBGJ0QbSqK7RNKUXe1g9wCjcdTu9wVTvMLyLtsrQLoh06Xfv9hJFTkU3eXwb_u_SbNQxzoXHTV8diVzc1VCDvfFMGLKdxFNuuQ9XzMozizQgTt-bkscymIfTXLsQYOLZ_vjeHciO_uFF63o0ZCEwlqYLbI_HRHKeu9tvKm82EnLQBGoXXdyVWKtETPCppSSbIDYG8vnpHIAIiykGRf6ifp04NUNKCdpKwIRoJocxFEEXrkYzGT0Ho7fYzbfOdC_XAPKOQVIlXmh4lic=w1405-h937-no",
+        "imgPath": "./images/RPS-game.png",
         "type": "Multiplayer Rock Paper Scissors",
         "date": "2018-08-04",
         "programming": "This Firebase database game allows real-time update on player actions to make this rock paper scissors game available. The most difficult part of this was programming the logic for functions that only run if the other screen runs and not yours yet making sure each game room only includes 2 people per game. The most notable part of this project was discovering how powerful Firebase is for real-time updating data.",
@@ -112,13 +172,20 @@
         "description": "A dynamic multiplayer Rock Paper Scissors game with chat room abilities. Easy to use and mobile responsive so you can take it on the go or pop it out when you and your friends need something to do to past the time."
     },
     {
-        "tech": [ "Javascript", "jQuery", "AJAX", "HTML", "CSS" ],
+        "tech": [
+            "Javascript",
+            "jQuery",
+            "AJAX",
+            "HTML",
+            "CSS"
+        ],
         "name": "Giphy Search",
+        "freelancebool": false,
         "featurebool": false,
         "showbool": true,
         "note": "",
         "link": "https://kitkat0202.github.io/GifTastic/",
-        "imgPath": "https://lh3.googleusercontent.com/FTFlAzclB6r7EeJ2NMpB1eX6eQMAj7xnU2a-XYa3mh7Lh20CwR70KW5Bs7ZYSSIjDRP_QSQQ9e-8flHQ6z_kMqcI4FGsHApA188PGglxmnwrVhvzINyZYADfgz1fp20fgb346Qn8N9frRbRWYKEWTF4BvP4cQt4wPa15Wi_BPnSkgZEeNbuZn4i3FwhZz8QK3ONQ1hwnC6mAYl4JfAZdFazvjmFts3h0XFln7vXUQIATOZNrHIdNZg750hGjZ1WkuZKMykeJASftkgxnRYLfVdHw92HWDuMXm32m0R6MNHW3tva5Ufrq5A8eXHgHFI4JcjXiv6u1eIMacGu6rJrM9vWqqwrgeh9Mf7sNmr9YbJMnHnJ4lAtMTjbkh2RNPztKC_RWyokLiuq9qsCgMXInnvfOwRejBrK4Jz68XNzAVLd7lep7DtryVsxcYEwrdI9F-p8gptyB-SLgV47U2YInSVUYmQX1uLx1VVPUx6LnoPr2etgJE6UMOIK8ixdtUWPoG2aqX97-gYEBWYphDAd8H08KKIIpgz2VUeZUsVOX3izvyHPWMIH7aplscnT5wMVrEl9xuKJ0wroJDKIs4P2C4Q3qGGGZg_vdRQ04ZCksMnK3zcZ2SA5B-dmaSim-cMHG4J8BytyyUawgAmYYAepp56E9nY4QrCU=w1405-h937-no",
+        "imgPath": "./images/Giftastic.png",
         "type": "Image Search App",
         "date": "2018-07-24",
         "programming": "A simple Giphy search that calls to the Giphy API. The CSS uses mostly Bootstrap framework and simple original CSS for cosmetic purposes. The Search history uses localstorage.",
@@ -126,13 +193,19 @@
         "description": "Search for Giphy images and save you search query. To make image start to play you just need to click on the image. While the Giphy is playing you can see info on the Giphy along with the link you need to use the Giphy. If you cannot find the Giphy you want with the first 20 results, there is an add more button to add 10 more images to the results."
     },
     {
-        "tech": [ "HTML", "CSS", "Javascript", "jQuery" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery"
+        ],
         "name": "Diablo Trivia Game",
+        "freelancebool": false,
         "featurebool": false,
         "showbool": true,
         "note": "",
         "link": "https://kitkat0202.github.io/TriviaGame/",
-        "imgPath": "https://lh3.googleusercontent.com/vMO4VOzK-HVPQBLxnbawnJ_Pvn5NR-9ODVpviOf4ZfKtARSCsMTZtk_wF6ZlFFFlS7knvLIVmKpY7EqYlUiFyR_f8WQWeFeA8yd456X-uFEr4KU2VZlQV46GwZoUtxcX_8NYsJAb9ooyKN1Mrh0jJMb13ZVanikzVkfZ8ZIG8USJqGIZInnRMj_oQywq8p91V1dQDQQ-XjibVt62x4LO2NjOm7WD9B7cvX6VQXWHyDSESEvOY1N7RN4JUTZTafAuhmlhcdSu2t9M5b3M2Ke5oqJ7C3s-lBg_OpDzCT9AmmL0_FJQb3pt3rNDIxH9lygaors9CzPqF0z8p89OQpgpB00eo939qR1w7Ua8se9wpTHZtEiu3YgbyghM2rE-jnbvZ8SXcoOem7K_XUkHQ3Ds2VNjh_OfQ-8S8w1zWpSxaA8haEoBPaCyrFaOh_K6v63zUdUjfiYrPGE1YdMpiBgTXy81nmShrqtEBOembyI-9t8_Gz5I6GlfLmByZZG_nexQF8xUjU8vd3SAgnTGzhYp0s-XzErYweOIjFze90FzYpGOqXzP98XDLEOT64fFCQEuVD5VDrLJ8ptlvV0hIV-AxZ-Ex2tADLkc-WrP_ZHCK5Y6w4XMQdZcUytYyx5uzNcY2xwfI27nuLFi1e_jVcIgH5cLXSQHt3Q=w1405-h937-no",
+        "imgPath": "./images/Diablo-Trivia-Game.png",
         "type": "Guessing Game",
         "date": "2018-07-14",
         "programming": "A trivia game created to test the most avid Blizzard Diablo game players on their knowledge of the game. The technology used for the timer was a simple setTimeout function to count down the clock, if you need more time to answer the questions you can change the number of seconds on line 38 of './assets/javascript/app.js'. The most difficult part of this project was the design. Finding fonts, images and pieces that fit together and did not look too overwhelming.",
@@ -140,26 +213,40 @@
         "description": "Test your Knowledge on the Diablo lore, but think quick you only have 20 seconds to read and answer each question in this 22 questions quiz. Will you be able to get 100% on your first try or will you need a couple of re-tries’? Play to find out."
     },
     {
-        "tech": [ "HTML", "CSS", "Javascript", "jQuery", "AJAX" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "AJAX"
+        ],
         "name": "Pokemon Gamegirl Color",
+        "freelancebool": false,
         "featurebool": false,
         "showbool": true,
         "note": "",
         "link": "https://kitkat0202.github.io/unit-4-game/",
-        "imgPath": "https://lh3.googleusercontent.com/QaWzYCBm75cXYnIZh5mpgEr0zV4-VPWWzmucyiCPHx_Vrzn1l6fjKo2dLxHaqDT8csJkrrOYTVrdc1LuNoYrWGXKX0fyWBMjG4uAzk5NGoHEo5Bp8JQD19Z71Hy4o-3Vch1Jffm3seZYILle7P0YaQKfidNTnwtAbMtWRa7ea_1VAxKaNG-vYk1egl60R0f_jeiVcgFcScpjoRIp1_OC5dtinysWQqiNxT1xljETTtSv23KeizVBUbuUcT_PrKmvvMs9d0q55mRzTwbkHaDovA78ZOoGp4R5r1Yn5gc9HUV3tQpliCswnU6_t3XLQ7rVoDwuKByDHYpZaGgJ6onMMbUD-esbctn7Q9wfOKw73gLerZ2cQWwDWN_KHT-yNJtikj740DcIK1G-DJuuX8--S-w0PpPdOFZZikj4g9WwWA39uTf_vvlhjD2SiFIaYAnjVRIjsREUjFnYIplbzg-zOwG_zYqYNnoLpugVs-TUYLzLhMuJ3WKR00aCjNzhZZ2e1HIglUITd3BbTR2sKO2i-mqUH8oXrlurGGa1feBffGd7fHMz6cCOCLGIYaHImSVhOzrKuxMSFhkYv5sNDNPnmeQsDMHAsowKUBtp99pmb7UhZXtzBWg01Y95SVgiHXinPdB7juGUhJ36qIic2c3C6o_PoFMOh6g=w1405-h937-no",
+        "imgPath": "./images/unit-4-game.png",
         "type": "CSS Fun",
-        "date":  "2018-07-07",
+        "date": "2018-07-07",
         "programming": "This was a challenge to recreate a game with only a video as a guide line. I took some creative liberties and made it Pokémon/ Gameboy theme. Since this was the beginning of my programming experience the most difficult part was to make it mobile responsive and working around the wait time after calling the Pokémon API database. ",
         "github": "https://github.com/kitkat0202/unit-4-game",
-        "description": "Simple game where you choose one Pokémon to defeat the rest. All stats are randomized numbers and all attacks are randomized numbers (although legendary Pokémon do have a higher chance of getting a better attack power). As you attack your attack power will grow but the opponent's will not. Stay alive till the very end and you will get one win point. (WARNING: This game has background music that will auto turn on at game start, however there is an option to turn the melody off after the game completely starts up)"},
+        "description": "Simple game where you choose one Pokémon to defeat the rest. All stats are randomized numbers and all attacks are randomized numbers (although legendary Pokémon do have a higher chance of getting a better attack power). As you attack your attack power will grow but the opponent's will not. Stay alive till the very end and you will get one win point. (WARNING: This game has background music that will auto turn on at game start, however there is an option to turn the melody off after the game completely starts up)"
+    },
     {
-        "tech": [ "HTML", "CSS", "Javascript", "jQuery" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery"
+        ],
         "name": "Kingdom Hearts Crystals",
+        "freelancebool": false,
         "featurebool": false,
         "showbool": true,
         "note": "",
         "link": "https://kitkat0202.github.io/crystal-game/",
-        "imgPath": "https://lh3.googleusercontent.com/YQIPMe4gq8XuehLNxzl1oSQ9_soJfNXM81gPEPg3lS3RZSGCPKaJNvZVLn3vwqqIIseVFLiZ6ziz-KfLHy6Ay6uI4njSubV9jSL3K7x9Cs3-oJ1Z1GRbYP0XOj-f9kgRstHh05f7lIH8DxWMcGYrPctySaS6Xq1wxZWtReeS4Z2KdIyrPI7uLyHrbVwQFjna4RQsoYRYs87kg8FzPdlYsnSbfJLAR2VvLMTXlnDZ3jEHxTOOUX6RVc8EadQLvzdRxoonrkCx12gh0cbREPbMliT6WQ_e8CDFrdn05Ov8V5jjbZjnP42DdOfNc18rriX_bdwPfj4hXv9_iNPpHxH8recYld5jhig5ZL3XxnuWxXcQ7f6wR_jLFALBMWk-fHzVWkc4QjY88u9chtUi7i3OCsctV3REyjyng7Htlmb-TLLaHfJgfQ5hicqfsEeGAO1ea1wQbf_ZXLtdC05dSFthD86cZI_coLEsf6lhbulONX0SRFaKikg17PXFU-S6U5SjQ9yllTqzvZOncwkFzYSgGxqvtkjNAzzoiwBlrIpWfKuIvDJPSzs6LvDtXJoeg5bzIaIk64L-EuvY131B0e3tqk8tliOJDCqyGeYQyyG6s0WFfriVl8bSxWGNYAEjsviRQFeXz9uKzNl0MXDnC-ROvwRs_oiPYWc=w1405-h937-no",
+        "imgPath": "./images/KH-Crystal-Game.png",
         "type": "Math Game",
         "date": "2018-07-05",
         "programming": "A simple math game that was created to take players mind off the real world and use it to do simple soothing addition. Also comes with its very own Kingdom hearts background melody.",
@@ -167,13 +254,19 @@
         "description": "A game to test your memory and mathematics skills. You are given 4 Kingdom Hearts start point crystals, each with a new randomly generated number every turn. See if you can win by matching the randomly computer generated by adding up the worth of each crystal. If your number goes over the computer number you lose. Good luck! (WARNING: This game has background music that will auto turn on at game start)"
     },
     {
-        "tech": [ "HTML", "CSS", "Javascript", "jQuery" ],
+        "tech": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery"
+        ],
         "name": "Anime Word Guess",
+        "freelancebool": false,
         "featurebool": false,
         "showbool": true,
         "note": "",
         "link": "https://kitkat0202.github.io/Word-Guess-Game/",
-        "imgPath": "https://lh3.googleusercontent.com/GR6zT5__rI2rBsRSVku2IYwJaR0_SobTfP0BZ8XaiX2jueXxLqU54wCRT28SmRKhO0_m8NesH-t3MurLDk9YZ_HaQ2-XgTVB7n-SfhtOmtKjO1FJ4wzRLk42ngMOgr8u0LJimFlVETFQww3XybbUCWP_f713EN3kSPL8l6aKDYekCf7aidy-VqWRzgl9lFBG34FOFPB40RcHLrk4uOhmYRp76iUWHe54m9tF715q-IqipJty0tEPeUN2tpnckKqPE433nKaA9p5VqEPPfPBpTFsBipR_zyqa5nvpy4ovgLSTcCMwS59iNXcpKgjWEK_hieNRj4cZmJe30bmpXltEjL_ZtVfWIgQ09TcX9He1ZFXn_xm48GXqYsA4cfXrWBVNhv2_tNbvrjhjb91uCiOqel1orzieYWojQmr01Z48YeWPEE0tjrbrybuWWOIa00jHE1KIFEcMFUYtWlsA9DJFkVlzagYpNB1riIcLuGJOCBpohcDL4KBw-0sLz2qEbnYezmuiRp_ae1bTT-4_JBc119pSbB31lUauJi2b6JA_PEu4wJr_pVChFCOWOmSUzFiKhtjku5DWO3IDOA2--Qc7KXtYczj25TPyb63nJc_oijzc0rkWrYuZBCxS-ep0NSiKbr8LIuMKe8szB-5N2cMPw-USdKiOSmY=w1404-h937-no",
+        "imgPath": "./images/welcome-page.png",
         "type": "Guessing Game",
         "date": "2018-06-28",
         "programming": "The very first homework in the Columbia University Coding bootcamp, includes only very simple HTML, CSS and JavaScript. This project is mobile responsive with out the use of any CSS framework. If you just want to see the flow of the game and are not very good with anime you can comment in line 294 of './assets/javascript/game.js'",
