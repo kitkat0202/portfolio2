@@ -118,6 +118,7 @@ ul li{
     border: 3px solid var(--primaryLight);
     box-shadow: 0 0 6px 3px var(--navColor);
     color: var(--navColor);
+    background-color: #ffffffec;
     transition: all 300ms ease-in-out;
 }
 
