@@ -1,8 +1,13 @@
+// Bubble.js is to make it possivel to render with a delay
+// https://stackoverflow.com/questions/30803440/delayed-rendering-of-react-components
+
+
 import React, { Component, Fragment } from 'react'
 import './RandBubble.css'
 
 export default class RandBubble extends Component {
     state = {
+        array: [],
         bubble: [],
         clickX: 0,
         clickY: 0
@@ -34,12 +39,20 @@ export default class RandBubble extends Component {
             const bgc = (border === "var(--navColor)" ? "#fff" : border === "#fff" ? colors[this.randomNum(0, 2)] : colors[this.randomNum(0, 3)])
             array.push({ x, y, size, border, bgc, key: array.length })
         }
-        this.setState({ bubble: array })
+
+        this.setState({ array }, () => {
+            let bubble = this.state.array.map((e) => (<div key={e.key} className="rand-bubble" style={{ top: `${e.y}vh`, left: `${e.x}vw`, border: `3px solid ${e.border}`, backgroundColor: `${e.bgc}`, height: `${e.size}px`, width: `${e.size}px` }}></div>))
+            this.setState({ bubble })
+        })
     }
 
     renderbubble = () => {
-        let array = this.state.bubble.map((e) => (<div key={e.key} className="rand-bubble" style={{ top: `${e.y}vh`, left: `${e.x}vw`, border: `3px solid ${e.border}`, backgroundColor: `${e.bgc}`, height: `${e.size}px`, width: `${e.size}px` }}></div>))
-        return array
+        // let array = this.state.bubble.map((e) => (<div key={e.key} className="rand-bubble" style={{ top: `${e.y}vh`, left: `${e.x}vw`, border: `3px solid ${e.border}`, backgroundColor: `${e.bgc}`, height: `${e.size}px`, width: `${e.size}px` }}></div>))
+        // return array
+
+        return this.state.bubble
+
+
     }
 
     handleClick = e => {
@@ -47,9 +60,9 @@ export default class RandBubble extends Component {
     }
 
     checkbubble = () => {
-        let { bubble, clickX, clickY } = this.state
+        let { array, clickX, clickY } = this.state
         console.log(`x: ${clickX} y: ${clickY} `);
-        bubble.forEach((e, i) => {
+        array.forEach((e, i) => {
             const sizeToVw = Math.ceil(((e.size) * 100) / window.innerWidth)
             const sizeToVh = Math.ceil(((e.size) * 100) / window.innerHeight)
 
@@ -61,22 +74,21 @@ export default class RandBubble extends Component {
             //     `yEnd -- ${sizeToVh + e.y}`])
             // }
 
-
             if (e.x < clickX && clickX < (sizeToVw + e.x) && e.y < clickY && clickY + 1 < (sizeToVh + e.y)) {
                 if (i === 0) {
-                    bubble = bubble.slice(1)
-                } else if (i === bubble.length - 1) {
-                    bubble = bubble.slice(0, -1)
+                    array = array.slice(1)
+                } else if (i === array.length - 1) {
+                    array = array.slice(0, -1)
                 } else {
-                    bubble = [...bubble.slice(0, i), ...bubble.slice(i + 1)]
+                    array = [...array.slice(0, i), ...array.slice(i + 1)]
                 }
-                this.setState({ bubble })
+
+                this.setState({ array }, () => {
+                    let bubble = this.state.array.map((e) => (<div key={e.key} className="rand-bubble" style={{ top: `${e.y}vh`, left: `${e.x}vw`, border: `3px solid ${e.border}`, backgroundColor: `${e.bgc}`, height: `${e.size}px`, width: `${e.size}px` }}></div>))
+                    this.setState({ bubble })
+                })
             }
         })
-    }
-
-    removeBubble = () => {
-
     }
 
     render() {
